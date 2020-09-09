@@ -1,0 +1,161 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+/* h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+} */
+
+
+p {
+    font-size: 130%;
+    line-height: 150%;
+    margin-bottom: 30px;
+    width: 70%;
+    text-align: justify;
+
+}
+
+/* ----- LINKS ----- */
+
+
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #5997CF;
+    border: 1px solid #5997CF;
+    color: #fff;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #4868B0;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #4868B0;
+}
+
+
+
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+
+header {
+    background-image: url(img/splash_codeml_2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 40%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+div img {
+
+    position: static;
+    -webkit-transform: translate(-25%, -85%);
+    -ms-transform: translate(-25%, -85%);
+    transform: translate(-25%, 35%);
+    width: 30%;
+    height: auto;
+}
+
+.countdown {
+    position: static;
+    -webkit-transform: translate(35%, -30%);
+    -ms-transform: translate(35%, -250%);
+    transform: translate(18%, -200%);
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+/* #text-countdown {
+    position: absolute;
+    width: 1140px;
+    top: -60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+} */
+
+
+.header-img-mobile {
+    display: none;
+}
+
+.header-img-mobile img {
+        max-width: 100%;
+        height: auto;
+}
+
+.header-text-box-mobile {
+    display: none;
+}
+
+.logo-title{
+position: relative;
+}
