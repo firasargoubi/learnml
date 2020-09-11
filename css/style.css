@@ -195,7 +195,12 @@ position: relative;
 
 
 }
-
+.social{
+    width: 50%;
+    text-align: right;
+    font-size: 150%;
+    padding-top: 1rem;
+}
 .date {
     font-weight: 600;
     margin-bottom: 1rem;

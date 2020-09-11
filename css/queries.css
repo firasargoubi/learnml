@@ -82,4 +82,11 @@ div img {
         transform: translate(0%, 0%);
     }
 
+    .social{
+        width: 100%;
+        text-align: center;
+        font-size: 150%;
+        padding-top: 1rem;
+    }
+
 }
