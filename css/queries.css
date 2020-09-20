@@ -1,7 +1,7 @@
 
 @media (max-width: 1800px) {
     .hero-text-box {
-        left: 40%;
+        left: 700px;
     }
 
     p {
@@ -11,19 +11,74 @@
 
 }
 
-@media (max-width: 1350px) {
-    .hero-text-box {
-        left: 50%;
-    }
+
+@media (max-width: 950px) {
 
     p {
         font-size: 80%;
-        width: 50%;
+        width: 45%;
+    }
+
+    .event-description {
+        font-size: 90%;
+    }
+
+    .date {
+        font-size: 90%;
+    }
+
+    .social{
+
+        left: 575px;
+
     }
 
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 750px) {
+.hero-text-box {
+left: 650px
+}
+
+.social{
+
+    left: 525px;
+
+}
+
+}
+
+@media (max-width: 650px) {
+    .hero-text-box {
+    left: 625px
+    }
+    
+    .social{
+    
+        left: 450px;
+    
+    }
+    
+
+    p {
+        font-size: 70%;
+        width: 40%;
+    }
+
+    .event-description {
+        font-size: 80%;
+    }
+
+    .date {
+        font-size: 80%;
+    }
+    }
+    
+    
+
+
+@media (max-width: 550px) {
     .header-img-mobile {
         display: block;
     }
@@ -54,6 +109,7 @@
     p {
         font-size: 80%;
         width: 100%;
+        margin-bottom: 3rem;
     }
 
     .countdown {
