@@ -1,5 +1,9 @@
 /* ----------------------------------------------- */
+
+
 /* BASIC SETUP */
+
+
 /* ----------------------------------------------- */
 
 * {
@@ -21,8 +25,13 @@ body {
 
 
 /* ----------------------------------------------- */
+
+
 /* REUSABLE COMPONENTS */
+
+
 /* ----------------------------------------------- */
+
 
 /* h1 {
     font-weight: 300;
@@ -35,20 +44,20 @@ body {
     letter-spacing: 1px;
 } */
 
-
 p {
     font-size: 80%;
     line-height: 150%;
     margin-bottom: 1rem;
     width: 70%;
     text-align: justify;
-
 }
+
 
 /* ----- LINKS ----- */
 
 
 /* ----- BUTTONS ----- */
+
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -80,12 +89,13 @@ p {
 }
 
 
-
-
 /* ----------------------------------------------- */
+
+
 /* HEADER */
-/* ----------------------------------------------- */
 
+
+/* ----------------------------------------------- */
 
 header {
     background-image: url(img/splash_codeml_2.jpeg);
@@ -104,9 +114,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
-
 div img {
-
     position: static;
     -webkit-transform: translate(-25%, -85%);
     -ms-transform: translate(-25%, -85%);
@@ -120,6 +128,7 @@ div img {
     height: auto;
     transform: translate(-25%, -15%);
 }
+
 .countdown {
     /* position: static;
     -webkit-transform: translate(35%, -30%);
@@ -127,7 +136,8 @@ div img {
     transform: translate(18%, -200%); */
     font-weight: 900;
     text-transform: uppercase;
-    color: rgb(26, 32, 44);;
+    color: rgb(26, 32, 44);
+    ;
     font-size: 190%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -135,7 +145,8 @@ div img {
 
 .event-title {
     font-weight: 900;
-    color: rgb(26, 32, 44);;
+    color: rgb(26, 32, 44);
+    ;
     font-size: 190%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -144,10 +155,12 @@ div img {
 
 .event-description {
     font-weight: 600;
-    color: rgb(26, 32, 44);;
+    color: rgb(26, 32, 44);
+    ;
     margin-bottom: 1rem;
-
 }
+
+
 /* #text-countdown {
     position: absolute;
     width: 1140px;
@@ -164,22 +177,21 @@ div img {
     letter-spacing: 1px;
 } */
 
-
 .header-img-mobile {
     display: none;
 }
 
 .header-img-mobile img {
-        max-width: 100%;
-        height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .header-text-box-mobile {
     display: none;
 }
 
-.logo-title{
-position: relative;
+.logo-title {
+    position: relative;
 }
 
 .commanditez-nous {
@@ -190,10 +202,8 @@ position: relative;
     text-decoration: none;
     outline: none;
     color: #1E5480;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
-
-
 }
 .social{
     position: absolute;
@@ -201,8 +211,17 @@ position: relative;
     text-align: right;
     font-size: 150%;
     padding-top: 1rem;
+    cursor: pointer;
+    z-index: 1;
 }
+
 .date {
     font-weight: 600;
     margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
