@@ -32,6 +32,9 @@
         left: 575px;
 
     }
+    .lang {
+        left: 475px;
+    }
 
 }
 
@@ -46,6 +49,9 @@ left: 650px
     left: 525px;
 
 }
+.lang {
+    left: 425px;
+}
 
 }
 
@@ -59,6 +65,11 @@ left: 650px
         left: 450px;
     
     }
+
+    .lang {
+        left: 350px;
+    }
+    
     
 
     p {
@@ -139,10 +150,19 @@ div img {
     }
 
     .social{
+        position: static;
         width: 100%;
+        left: auto;
         text-align: center;
-        font-size: 150%;
-        padding-top: 1rem;
     }
+
+    .lang {
+        position: static;
+    
+        left: auto;
+        top: auto;
+        text-align: center;
+}
+
 
 }

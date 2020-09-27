@@ -17,9 +17,14 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementsByClassName("countdown")[0].innerHTML = days + "J " + hours + "H "
+  let lang = document.getElementsByClassName('abbr')[0].innerHTML;
+  let jour = "J";
+  if (lang === 'fr') {
+    jour = "D"
+  }
+  document.getElementsByClassName("countdown")[0].innerHTML = days + `${jour} ` + hours + "H "
   + minutes + "M " + seconds + "S";
-  document.getElementsByClassName("countdown")[1].innerHTML = days + "J " + hours + "H "
+  document.getElementsByClassName("countdown")[1].innerHTML = days + `${jour} ` + hours + "H "
   + minutes + "M " + seconds + "S ";
 
   // If the count down is finished, write some text
