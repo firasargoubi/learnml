@@ -36,6 +36,12 @@
         left: 475px;
     }
 
+    header {
+        background-size: auto;
+        background-position: 0% 0%;
+        
+    }
+
 }
 
 
@@ -52,6 +58,7 @@ left: 650px
 .lang {
     left: 425px;
 }
+
 
 }
 
@@ -89,7 +96,7 @@ left: 650px
     
 
 
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     .header-img-mobile {
         display: block;
     }
