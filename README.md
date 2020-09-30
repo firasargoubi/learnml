@@ -1,14 +1,14 @@
 # Processus de développement d'application Web chez PolyAI
 Bienvenue dans l'équipe! 
 
-**[Staging:](https://poly-ai---staging.web.app/)**
+**[Staging:](https://codeml---staging.web.app/)**
 
-![Staging](https://github.com/PolyHx/website-polyai/workflows/Deployement/badge.svg?branch=master)
+![Staging](https://github.com/PolyHx/website-CodeML/workflows/Deployement/badge.svg?branch=master)
 
-u![Prodution](https://github.com/PolyHx/website-polyai/w)
+u![Prodution](https://github.com/PolyHx/PolyAI-CodeML/w)
 **Branche actuelle:**
 
-![TSLint and tests](https://github.com/PolyHx/website-polyai/workflows/Lint%20and%20test/badge.svg)
+![TSLint and tests](https://github.com/PolyHx/website-CodeML/workflows/Lint%20and%20test/badge.svg)
 
 ## IDE, outils, frameworks et autres dépendances 
 Il faut que vous installiez tout ça sur votre ordinateur avant de pouvoir commencer à programmer!
@@ -34,15 +34,6 @@ une page s'ouvrira automatiquement à `http://localhost:3000/`
 Exécutez la commande
 `npm test`
 pour rouler les tests!
-
-## TSLint
-Exécuter
-`npm run lint` 
-pour lancer TSLint.
-
-Exécuter la commande 
-`npm run lint-fix` 
-pour régler automatiquement certaines erreurs de lint.
 
 ## Convention de nommage
 Utilisez le ALL_CAPS pour les constantes.
