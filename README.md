@@ -1,5 +1,5 @@
 # Processus de développement d'application Web chez PolyAI
-Bienvenue dans l'équipe! 
+Bienvenue dans l'équipe!
 
 **[Staging:](https://codeml---staging.web.app/)**
 
@@ -10,7 +10,7 @@ u![Prodution](https://github.com/PolyHx/PolyAI-CodeML/w)
 
 ![TSLint and tests](https://github.com/PolyHx/website-CodeML/workflows/Lint%20and%20test/badge.svg)
 
-## IDE, outils, frameworks et autres dépendances 
+## IDE, outils, frameworks et autres dépendances
 Il faut que vous installiez tout ça sur votre ordinateur avant de pouvoir commencer à programmer!
 
 - node.js: https://nodejs.org/en/ (12.18)
@@ -53,6 +53,8 @@ Un tableau/list/dictionnaire devrait avoir un nom indiquant qu'il contient plusi
 On évite de mettre le type de l'objet dans le noms, par exemple on préfère "cars" à "listOfCars" lorsqu'on déclare une liste.
 
 Un objet ne devrait pas avoir un nom qui porte à croire qu'il s'agit d'un tableau.
+
+Les clés de traduction doivent suivre le format suivant: "<ComposanteReact>.<cleMessage>'. La cleMessage doit suivre les conventions de nommage pour les variables. Pour les clés de traduction qui sont utilisés à l'extérieur d'une d'une composante, elle doit identique au chemin d'accès utilisé dans le code (e.g. "DATA_ARRAY[0].data").
 
 Vous devez coder dans une langue et une seule. Nous vous recommandons d'écrire votre code en anglais.
 
