@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
+import { useTranslation } from 'react-i18next';
 import logo from '../../images/logo.svg';
-import { useTranslation } from 'react-i18next'
 import './app.scss';
 
-function App() {
-  const { t } = useTranslation()
+const App: FunctionComponent = () => {
+  const { t } = useTranslation();
   return (
     <div className="App">
       <header className="App-header">
@@ -23,6 +23,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
