@@ -1,5 +1,7 @@
 {
     "App.edit0": "Modifier",
     "App.edit1": "et sauvegarder pour relancer la page",
-    "App.learnReact": "Apprendre React"
+    "App.learnReact": "Apprendre React",
+    "Schedule.title": "Horaire",
+    "Schedule.day": "Jour"
 }

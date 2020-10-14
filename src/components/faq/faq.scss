@@ -1,0 +1,15 @@
+@import '../../scss/variables.scss';
+
+.faq{
+    background: $primary;
+    select{
+        height:3em;
+        margin-bottom:2.5em;
+        border: none;
+    }
+
+}
+
+.accordion-title {
+    margin-bottom :0rem !important;
+}

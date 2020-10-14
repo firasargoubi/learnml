@@ -1,5 +1,6 @@
 import classnames from 'classnames';
 import React, { FunctionComponent, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import {
     Col,
     Container,
@@ -10,6 +11,7 @@ import {
     TabContent,
     TabPane,
 } from 'reactstrap';
+import ContainerHeading from '../common/container-heading';
 import { Event } from './event-interface';
 import './schedule.scss';
 
@@ -31,8 +33,11 @@ const Schedule: FunctionComponent<ScheduleProps> = ({
         if(activeTab !== tab) setActiveTab(tab);
     };
 
+    const { t } = useTranslation();
+
     return (
         <Container className="schedule">
+            <ContainerHeading title={t('Schedule.title')}/>
             <Nav tabs={true}>
                {events.map((_, i) => (
                     <NavItem
@@ -42,7 +47,7 @@ const Schedule: FunctionComponent<ScheduleProps> = ({
                         <NavLink
                             onClick={() => toggle(i)}
                         >
-                            Day {i + 1}
+                            {useTranslation('Schedule.day')} {i + 1}
                         </NavLink>
                     </NavItem>
                 ))}
