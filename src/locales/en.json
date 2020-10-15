@@ -1,11 +1,24 @@
 {
-    "App.edit0": "Edit",
-    "App.edit1": "and save to reload",
-    "App.learnReact": "Learn React",
+    "App.home": "Home",
+    "App.about": "About",
+    "App.sponsors": "Sponsors",
+    "App.speakers": "Speakers",
+    "App.faq": "FAQ",
+    "App.schedule": "Schedule",
+    "LandingHeroPage.title": "CodeML Hackathon: A Machine Learning Experience",
+    "LandingHeroPage.subtitle": "Come join more than 300 participants to tackle multiple ML challenges and win prizes!",
+    "LandingHeroPage.register": "Register",
+    "About.about": "CodeML is a unique hackathon. Spread over 48 hours, it consists of a series of challenges on machine learning of increasing difficulty. This event is the perfect opportunity for participants to familiarize themselves with different aspects of machine learning methods! For those new to the field, this competition will allow you to learn a lot  as we prepared documentation and tools for you to start! For veterans,  we have also created some tough challenges for you to enjoy! Many prizes to win!",
+    "Card[0].text": "Come practice and learn more about ML as you tackle our multiple challenges of ascending difficulty regarding multiple fields of ML",
+    "Card[1].text": "Come assits to our workshops given by industry professionals comming from top compganies to learn key skills for applying ML in real life",
+    "Card[2].text": "Have fun with your team and try to win one of our prizes! There's up to 2000$ value of prizes to win including surprises!",
+    "Card[3].text": "Come network with our sponsors to expand your network and obtain graduate or internship opportunities!",
     "Event[0][0].description": "Some random dscription 0 0 asdflkjadsfffffffffffffffffffffffas asdlfkjasdflkadsj alsdkfjasdlfk asldkfjasdlfkj alsdkfjasdlkfj alsdkfjasdflkj",
     "Event[1][0].description": "Some random dscription 1 0",
     "QuestionAnswer.element0.question": "Sample Question",
     "QuestionAnswer.element0.answer": "Sample Answer",
+    "Partners.title": "Sponsors",
     "Schedule.title": "Schedule",
-    "Schedule.day": "Day"
+    "Schedule.day": "Day",
+    "Footer.newsletter": "Sign up to our newsletter!"
 }

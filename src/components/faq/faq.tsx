@@ -13,7 +13,7 @@ const Faq: FunctionComponent<FaqProps> = ({
     questionAnswers,
 }) => {
     return (
-        <Container className="faq">
+        <div className="faq">
             <ContainerHeading title="FAQ"/>
             {
                 questionAnswers.map((qa, i) => (
@@ -24,7 +24,7 @@ const Faq: FunctionComponent<FaqProps> = ({
                     />
                 ))
             }
-        </Container>
+        </div>
     );
 };
 

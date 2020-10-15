@@ -36,7 +36,7 @@ const Schedule: FunctionComponent<ScheduleProps> = ({
     const { t } = useTranslation();
 
     return (
-        <Container className="schedule">
+        <div className="schedule">
             <ContainerHeading title={t('Schedule.title')}/>
             <Nav tabs={true}>
                {events.map((_, i) => (
@@ -47,7 +47,7 @@ const Schedule: FunctionComponent<ScheduleProps> = ({
                         <NavLink
                             onClick={() => toggle(i)}
                         >
-                            {useTranslation('Schedule.day')} {i + 1}
+                            {t('Schedule.day')} {i + 1}
                         </NavLink>
                     </NavItem>
                 ))}
@@ -66,7 +66,7 @@ const Schedule: FunctionComponent<ScheduleProps> = ({
                     </TabPane>
                 ))}
             </TabContent>
-        </Container>
+        </div>
     );
 };
 

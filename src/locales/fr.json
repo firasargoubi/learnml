@@ -1,7 +1,20 @@
 {
-    "App.edit0": "Modifier",
-    "App.edit1": "et sauvegarder pour relancer la page",
-    "App.learnReact": "Apprendre React",
+    "App.home": "Accueil",
+    "App.about": "À Propos",
+    "App.sponsors": "Commanditaires",
+    "App.speakers": "Conférenciers",
+    "App.faq": "FAQ",
+    "App.schedule": "Horaire",
+    "LandingHeroPage.title": "Hackathon CodeML: une expérience unique en apprentissage machine",
+    "LandingHeroPage.subtitle": "Venez rejoindre plus de 300 participants pour relever de multiples défis en ML et gagner des prix!",
+    "LandingHeroPage.register": "S'inscrire",
+    "About.about": "CodeML est un hackathon unique en son genre. S'étalant sur 48 heures, il consiste en une série de défis sur l'apprentissage machine de difficulté croissante. Cet événement est l'occasion idéale pour les participants de se familiariser avec les différents aspects des méthodes d'apprentissage machine! Pour les nouveaux venus dans le domaine, cette compétition vous permettra d'apprendre beaucoup car nous avons préparé de la documentation et des outils pour que vous puissiez commencer! Pour les vétérans, nous avons également créé des défis difficiles que vous pourrez apprécier! De nombreux prix à gagner!",
+    "Card[0].text": "Venez vous entraîner et en apprendre davantage sur le ML tout en relevant nos multiples défis de difficulté croissante concernant de multiples domaines du ML",
+    "Card[1].text": "Venez assister à nos ateliers donnés par des professionnels de l'industrie provenant des meilleures entreprises pour acquérir les compétences clés nécessaires à l'application du ML dans la vie réelle",
+    "Card[2].text": "Amusez-vous avec votre équipe et essayez de gagner l'un de nos prix! Il y a jusqu'à 2000$ de prix à gagner, y compris des surprises!",
+    "Card[3].text": "Venez réseauter avec nos sponsors pour élargir votre réseau et obtenir des opportunités de diplôme ou de stage!",
+    "Partners.title": "Commanditaires",
     "Schedule.title": "Horaire",
-    "Schedule.day": "Jour"
+    "Schedule.day": "Jour",
+    "Footer.newsletter": "Inscris-toi à notre infolettre!"
 }
