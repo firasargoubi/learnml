@@ -3,9 +3,13 @@ import bottomleftIcon from '../../../images/bottomleft-icon.png';
 import bottomrigtIcon from '../../../images/bottomright-icon.png';
 import topleftIcon from '../../../images/topleft-icon.png';
 import toprightIcon from '../../../images/topright-icon.png';
-import { CardProps } from './card';
 
-const DATA: CardProps[] = 
+export interface CardData {
+    iconPath: string;
+    text: string;
+}
+
+export const DATA: CardData[] = 
 [
     {
         iconPath: topleftIcon,
@@ -24,5 +28,3 @@ const DATA: CardProps[] =
         text: i18n.t('Card[3].text'),
     },
 ];
-
-export default DATA;

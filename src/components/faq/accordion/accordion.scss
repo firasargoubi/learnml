@@ -4,7 +4,6 @@
 /* Style the accordion section */
 
 $qa-border: 3px solid $secondary;
-
 .accordion__section {
     display: flex;
     flex-direction: column;
@@ -15,8 +14,8 @@ $qa-border: 3px solid $secondary;
 /* Style the buttons that are used to open and close the accordion panel */
 
 .accordion {
-    background-color:$primary;
-    color:white;
+    background-color: $primary;
+    color: white;
     cursor: pointer;
     padding: 18px;
     display: flex;
@@ -33,6 +32,7 @@ $qa-border: 3px solid $secondary;
 .active {
     background-color: $primary-lite;
 }
+
 
 /* Style the accordion content title */
 
@@ -69,6 +69,16 @@ $qa-border: 3px solid $secondary;
     color: white;
     overflow: auto;
     transition: max-height 0.6s ease;
+    overflow-y: hidden;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
 }
 
 

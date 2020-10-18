@@ -3,7 +3,7 @@
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #618A93;
+    background-color: $degrade;
     align-items: center;
     justify-items: center;
     width: 100%;
@@ -24,7 +24,8 @@
     padding-right: 15%;
 }
 
-.footer-newsletter {
+.footer-newsletter,
+.footer-flaticon {
     grid-column-start: 1;
     grid-column-end: 4;
     width: 100%;
@@ -34,4 +35,8 @@
         padding-right: 0;
         color: white;
     }
+}
+
+.footer-flaticon {
+    font-size: 0.7rem;
 }

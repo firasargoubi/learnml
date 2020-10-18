@@ -1,0 +1,58 @@
+    @import '../../scss/variables.scss';
+    .partners-section {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background: rgb(97, 138, 147);
+        background: linear-gradient(0deg, $degrade 0%, $primary 100%);
+    }
+    
+    .parters-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    
+    .partners-logos-container {
+        padding-top: 10px;
+        width: 100%;
+    }
+    
+    .partners-platinum {
+        width: 120%;
+    }
+    
+    .partners-gold {
+        width: 110%;
+    }
+    
+    .partners-silver {
+        width: 100%;
+    }
+    
+    .partners-bronze {
+        width: 90%;
+    }
+    
+    .sponsor-us-btn {
+        float: center;
+        transition: all 0.3s ease 0s;
+        padding: 1%;
+        background-color: #6d7879;
+        color: white;
+        font-size: 1.5vw;
+        border-radius: 12px;
+        outline: none;
+        border: none;
+        width: 15%;
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        &:hover {
+            width: 12%;
+            background-color: #4A8FA1;
+            transition: all 0.6s ease 0s;
+            cursor: pointer;
+        }
+    }

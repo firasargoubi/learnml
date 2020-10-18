@@ -14,7 +14,9 @@ const Footer: FunctionComponent = () => {
                 </div>
 
                 <div>
-                    <LogoSvg/>
+                    <a href="https://poly-ai.io/" target="_blank" rel="noopener noreferrer">
+                        <LogoSvg/>
+                    </a>
                 </div>
 
                 <div className="social-media">
@@ -29,6 +31,11 @@ const Footer: FunctionComponent = () => {
                 <div className="footer-newsletter">
                     <a href="http://eepurl.com/hc0eUD" target="_blank" rel="noopener noreferrer">
                         {t('Footer.newsletter')}
+                    </a>
+                </div>
+                <div className="footer-flaticon">
+                    <a href="https://www.notion.so/Flaticon-icons-authors-e4fe0950699c42c9949ab98c6ce6f468" target="_blank" rel="noopener noreferrer">
+                        {t('Footer.flaticon')}
                     </a>
                 </div>
             </div>

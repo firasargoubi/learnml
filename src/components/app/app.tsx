@@ -1,43 +1,28 @@
 import React, { FunctionComponent } from 'react';
-import { useTranslation } from 'react-i18next';
-import About from '../About/About';
+import About from '../about/about';
 import {QUESTION_ANSWERS} from '../faq/data';
 import Faq from '../faq/faq';
-import LandingHeroPage from '../LandingHeroPage/LandingHeroPage';
-import Partners from '../partners/partners';
+import Footer from '../footer/footer';
+import LandingHeroPage from '../landing-hero-page/landing-hero-page';
 import Schedule from '../schedule/schedule';
 import { EVENTS } from '../schedule/schedule-data';
+import { SPEAKERS } from '../speakers/data';
+import Speakers from '../speakers/speakers';
+import Partners from '../sponsors/sponsors';
+import StickyNavBar from '../sticky-navbar/sticky-navbar';
 import './app.scss';
 
-import { Link } from 'react-scroll';
-import Footer from '../footer/footer';
-
-const App: FunctionComponent = () => {
-  const { t } = useTranslation();
-  const DURATION = 1000;
-  return (
-    <div className="App">
-    <nav className="nav-container">
-      <div className="nav-row">
-          <ul className="main-nav">
-            <li><Link className="a" to="landing" smooth={true} duration={DURATION}>{t('App.home')}</Link></li>
-            <li><Link className="a" to="about" smooth={true} duration={DURATION}>{t('App.about')}</Link></li>
-            <li><Link className="a" to="partners" smooth={true} duration={DURATION}>{t('App.sponsors')}</Link></li>
-            <li><Link className="a" to="" smooth={true} duration={DURATION}>{t('App.speakers')}</Link></li>
-            <li><Link className="a" to="faq" smooth={true} duration={DURATION}>{t('App.faq')}</Link></li>
-            <li><Link className="a" to="schedule" smooth={true} duration={DURATION}>{t('App.schedule')}</Link></li>
-            
-            </ul>   
-         </div>
-    </nav>
+const App: FunctionComponent = () => (
+  <div className="App">
+    <StickyNavBar/>
     <LandingHeroPage/>
     <About/>
+    <Speakers speakers={SPEAKERS}/>
     <Faq questionAnswers={QUESTION_ANSWERS}/>
-    <Schedule events={EVENTS}/>
+    {/* <Schedule events={EVENTS}/> */}
     <Partners/>
     <Footer />
-    </div>
-  );
-};
+  </div>
+);
 
 export default App;
