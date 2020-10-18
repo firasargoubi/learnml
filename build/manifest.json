@@ -1,0 +1,19 @@
+{
+    "short_name": "CodeML",
+    "name": "CodeML Hackathon: A Machine Learning Experience",
+    "icons": [{
+            "src": "web_pAI_192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "web_pAI_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000022",
+    "background_color": "#ffffff"
+}
