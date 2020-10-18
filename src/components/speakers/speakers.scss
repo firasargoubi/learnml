@@ -1,0 +1,25 @@
+@import '../../scss/variables.scss';
+.speakers {
+    background-color: $primary;
+    height: 65vh;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .speaker-wrapper {
+        margin: auto;
+        width: fit-content;
+        padding-top: 5rem;
+        .speaker {
+            display: inline-block;
+        }
+    }
+    .active {
+        background-color: $primary;
+    }
+    h6 {
+        color: white;
+        text-align: center;
+    }
+}

@@ -1,0 +1,42 @@
+@import '../../scss/variables.scss';
+.footer-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: $degrade;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    color: white;
+}
+
+.social-media {
+    display: flex;
+}
+
+.facebook-icon,
+.linkedin-icon {
+    color: white;
+    font-size: 3vh;
+}
+
+.footer-wrapper a {
+    padding-right: 15%;
+}
+
+.footer-newsletter,
+.footer-flaticon {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.5%;
+    a {
+        padding-right: 0;
+        color: white;
+    }
+}
+
+.footer-flaticon {
+    font-size: 0.7rem;
+}

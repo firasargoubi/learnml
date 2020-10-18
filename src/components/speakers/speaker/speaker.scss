@@ -1,0 +1,41 @@
+@import '../../../scss/variables.scss';
+.speaker {
+    height: 300px;
+    width: 200px;
+    background: $primary;
+    .avatar {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        left: 5%;
+        .circle-dark {
+            fill: #045477
+        }
+        .circle-light {
+            fill: #04cfda
+        }
+        img {
+            width: 90%;
+            height: 90%;
+            border-radius: 50%;
+        }
+    }
+    .avatar>* {
+        position: absolute;
+    }
+    .text {
+        height: fit-content;
+        color: white;
+        text-align: center;
+        width: max-content;
+        & :nth-child(1) {
+            font-size: 20px;
+        }
+        &:nth-child(2) {
+            font-size: 18px;
+        }
+        &:nth-child(3) {
+            font-size: 16px;
+        }
+    }
+}
