@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
     Carousel,
@@ -23,7 +23,22 @@ const Speakers: FunctionComponent<SpeakersProps> = ({
 }) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
+    const [minLength, setMinLength] = useState(2);
     const { t } = useTranslation();
+
+    const updateCarousel = () => {
+        if (window.innerWidth < 678) {  // taille où deux un à côté de l'autre c'est laid / s'embarque dessus
+            setMinLength(1);
+        } else {
+            setMinLength(2);
+        }
+    };
+
+    useEffect( () => {
+        window.addEventListener('resize', updateCarousel);
+
+        return () =>  window.removeEventListener('resize', updateCarousel);
+    })
 
     const next = () => {
         if (animating) return;
@@ -39,7 +54,7 @@ const Speakers: FunctionComponent<SpeakersProps> = ({
         setActiveIndex(nextIndex);
     };
 
-    const slides = batch(speakers,2).map((speakersBatch, i) => {
+    const slides = batch(speakers, minLength).map((speakersBatch, i) => {
         return (
             <CarouselItem
                 onExiting={() => setAnimating(true)}
@@ -60,24 +75,28 @@ const Speakers: FunctionComponent<SpeakersProps> = ({
             <ContainerHeading title={t('Speakers.title')}/>
             <div>
                 <Carousel
-                    // pause={false}
                     ride="carousel"
-                    interval="3500"
+                    interval={slides.length > minLength ? '3500': false}
                     activeIndex={activeIndex}
                     next={next}
                     previous={previous}
                 >
                     {slides}
-                    <CarouselControl
-                        direction="prev"
-                        directionText="Previous"
-                        onClickHandler={previous}
-                    />
-                    <CarouselControl
-                        direction="next"
-                        directionText="Next"
-                        onClickHandler={next}
-                    />
+
+                    {slides.length > minLength &&
+                        <div>
+                            <CarouselControl
+                                direction="prev"
+                                directionText="Previous"
+                                onClickHandler={previous}
+                            />
+                            <CarouselControl
+                                direction="next"
+                                directionText="Next"
+                                onClickHandler={next}
+                            />
+                        </div>
+                    }
                 </Carousel>
             </div>
             <h6> {t('Speakers.emailUs')}</h6>

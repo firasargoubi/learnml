@@ -14,8 +14,8 @@ const generateLogos = (parterClass: string, xs: string, md: string, array: Spons
                 {
                     array.map( (sponsor: Sponsor, index: number) => {
                         return (
-                            <Col key={index}>
-                                <img className={'partners-' + parterClass} src={sponsor.imgPath} alt={sponsor.name}/>
+                            <Col key={index} className="center-logos">
+                                <img src={sponsor.imgPath} alt={sponsor.name}/>
                             </Col>
                         );
                     })

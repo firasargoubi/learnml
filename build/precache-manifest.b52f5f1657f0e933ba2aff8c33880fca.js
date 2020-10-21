@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a520bb8fdf9b8ec8669228051f050787",
+    "revision": "3ff7c392c9fb3c4cb02c4e6859230d8c",
     "url": "/index.html"
   },
   {
-    "revision": "0627e3099b4e2ddbe1e4",
+    "revision": "d590b3b5c8c09ef120f1",
     "url": "/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "0c55ab7c297458ec1422",
-    "url": "/static/css/main.327be199.chunk.css"
+    "revision": "d03426bf40da086e6720",
+    "url": "/static/css/main.9c3bc0b8.chunk.css"
   },
   {
-    "revision": "0627e3099b4e2ddbe1e4",
-    "url": "/static/js/2.f06525c5.chunk.js"
+    "revision": "d590b3b5c8c09ef120f1",
+    "url": "/static/js/2.3af05015.chunk.js"
   },
   {
     "revision": "451ffe720aa8add9f554b8ed54913322",
-    "url": "/static/js/2.f06525c5.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3af05015.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c55ab7c297458ec1422",
-    "url": "/static/js/main.49ba7b4e.chunk.js"
+    "revision": "d03426bf40da086e6720",
+    "url": "/static/js/main.84f41c35.chunk.js"
   },
   {
     "revision": "f046d85cad3978a2778a",
     "url": "/static/js/runtime-main.d2dd8168.js"
+  },
+  {
+    "revision": "daeb774c62c5d7ebe5e3713419026f3a",
+    "url": "/static/media/Christine_Izuakor.daeb774c.jpg"
   },
   {
     "revision": "0ca947d8dd7a98746419ceab94358d53",
@@ -48,8 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/brainImage.edf4bdde.png"
   },
   {
+    "revision": "5b3c4e72b70994d1919a0cd8e6a382e6",
+    "url": "/static/media/glimpse.5b3c4e72.png"
+  },
+  {
     "revision": "5c004f9e9cf59fb32450da9c126a7318",
     "url": "/static/media/ivado_logo.5c004f9e.svg"
+  },
+  {
+    "revision": "44d2137ad6bee0ca158a8bf7e2ba36b2",
+    "url": "/static/media/jonathan_aws_2.44d2137a.jpg"
   },
   {
     "revision": "330e716e07b4f3475dffea0c9a27b4df",

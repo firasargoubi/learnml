@@ -6,7 +6,8 @@
         background: linear-gradient(0deg, $degrade 0%, $primary 100%);
     }
     
-    .parters-center {
+    .parters-center,
+    .center-logos {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -15,23 +16,11 @@
     
     .partners-logos-container {
         padding-top: 10px;
-        width: 100%;
-    }
-    
-    .partners-platinum {
-        width: 105%;
-    }
-    
-    .partners-gold {
-        width: 100%;
-    }
-    
-    .partners-silver {
         width: 90%;
     }
     
-    .partners-bronze {
-        width: 85%;
+    .center-logos {
+        padding-bottom: 0;
     }
     
     .sponsor-us-btn {
@@ -54,5 +43,25 @@
             background-color: #4A8FA1;
             transition: all 0.6s ease 0s;
             cursor: pointer;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .sponsor-us-btn {
+            font-size: 2.5vw;
+            width: 20%;
+            &:hover {
+                width: 18%;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .sponsor-us-btn {
+            font-size: 4vw;
+            width: 30%;
+            &:hover {
+                width: 28%;
+            }
         }
     }
