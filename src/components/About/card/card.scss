@@ -27,3 +27,9 @@
     font-family: Segoe UI;
     font-size: 1.7vw;
 }
+
+@media only screen and (max-width: 768px) {
+    #cardText {
+        font-size: 3.5vw;
+    }
+}

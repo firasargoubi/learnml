@@ -1,7 +1,7 @@
 @import '../../scss/variables.scss';
 .speakers {
     background-color: $primary;
-    height: 65vh;
+    // height: 65vh;
     width: 100%;
     padding: 5%;
     display: flex;
@@ -9,11 +9,9 @@
     justify-content: center;
     .speaker-wrapper {
         margin: auto;
-        width: fit-content;
-        padding-top: 5rem;
-        .speaker {
-            display: inline-block;
-        }
+        display: flex;
+        width: min-content;
+        padding-top: 10%;
     }
     .active {
         background-color: $primary;

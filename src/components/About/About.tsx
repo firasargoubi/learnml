@@ -4,7 +4,7 @@ import { Col, Row } from 'reactstrap';
 import ContainerHeading from '../common/container-heading';
 import './about.scss';
 import Card from './card/card';
-import { DATA, CardData } from './card/card-data';
+import { CardData, DATA } from './card/card-data';
 
   const About: React.FC = () => {
     const { t } = useTranslation();

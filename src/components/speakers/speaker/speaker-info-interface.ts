@@ -1,6 +1,6 @@
 export interface SpeakerInfo {
     name: string;
-    title: string;
+    i18nTitleKey: string;
     company: string;
     imgSrc: string;
 }
