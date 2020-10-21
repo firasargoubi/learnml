@@ -9,18 +9,35 @@ import './landing-hero-page.scss';
 const LandingHeroPage: React.FC = () => {
   const { t } = useTranslation();
   const [showParticles, setShowParticles] = useState(false);
+  const [ratio, setRatio] = useState(1);
 
-  const handleResize = () => setShowParticles(window.innerWidth <= 768);
+  const handleResize = () => {
+    setShowParticles(window.innerWidth <= 768);
+  }
 
   useEffect( () => {
     window.addEventListener('resize', handleResize);
-
+    handleResize();
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+  
+  useEffect( () => {
+    if(showParticles) {
+      if (window.innerWidth < 300) {
+        setRatio(30);
+
+      } else if (window.innerWidth < 400) {
+        setRatio(60);
+        
+      } else {
+        setRatio(100);
+      }
+    }
+  }, [showParticles]);
 
   return (
     <React.Fragment>
-      <div className={showParticles ? "landing-hero-page" : "landing-hero-page bg-color-hack"} style={{ position: 'relative'}}>
+      <div className={showParticles ? 'landing-hero-page' : 'landing-hero-page bg-color-hack'}>
         <Row sm="1" md="2" className="content">
           <Col sm={{ order: 'last' }} md={{ order: 'first' }} className="text-container">
               <h1 className="title">{t('LandingHeroPage.firstTitle')} : {t('LandingHeroPage.secondTitle')}</h1>
@@ -33,7 +50,6 @@ const LandingHeroPage: React.FC = () => {
           <Col sm={{ order: 'first' }} md={{ order: 'last' }} className="neural-net-image"/>
         </Row>
         <div className="mobile-content">
-          {/* <div className="neural-net-image"/> */}
           <h1 className="title">{t('LandingHeroPage.firstTitle')}</h1>
           <h1 className="title">{t('LandingHeroPage.secondTitle')}</h1>
           <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
@@ -43,10 +59,9 @@ const LandingHeroPage: React.FC = () => {
           </button>
         </div>
         <Link className="a scroll-down" to="about" smooth={true} duration={1000} />
-      </div>
-      {/* <div className="particles">
-      </div> */}
-      <ParticlesBg color="#04cfda" type="cobweb" bg={showParticles}  />
+      </div> 
+
+      <ParticlesBg color="#04cfda" num={ratio} type="cobweb" bg={showParticles}  />
 
     </React.Fragment>
     
