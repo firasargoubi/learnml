@@ -20,7 +20,7 @@ const generateLogos = (xs: string, md: string, array: Sponsor[]) => {
                                         <img src={sponsor.imgPath} alt={sponsor.name} width="100%"/>
                                     </a>
                                     :
-                                    <img src={sponsor.imgPath} alt={sponsor.name}/>
+                                    <img src={sponsor.imgPath} alt={sponsor.name} width="100%"/>
                                 }
                             </Col>
                         );

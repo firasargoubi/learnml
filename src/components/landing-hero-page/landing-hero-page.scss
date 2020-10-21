@@ -1,13 +1,20 @@
+canvas {
+    background-color: #000022;
+}
+
 .landing-hero-page {
     width: 100%;
     height: 100vh;
-    background-color: #000022;
     padding-left: 5%;
     color: #ffffff;
     font-family: 'Segoe UI';
     display: flex;
     align-items: center;
     padding-top: 3%;
+}
+
+.bg-color-hack {
+    background-color: #000022;
 }
 
 .content {
@@ -137,16 +144,22 @@
 //768 px
 @media screen and (max-width: 768px) {
     .landing-hero-page {
-        padding: 0;
+        padding: 5%;
+        text-justify: distribute;
+        background-color: none;
     }
     .neural-net-image {
-        width: 100%;
-        height: 35vh;
-        background-size: 35%;
-        background-position: 50% 50%;
+        // width: 100%;
+        // height: 35vh;
+        // background-size: 50%;
+        // background-position: 50% 50%;
+        display: none;
+    }
+    .title {
+        font-size: 5vw;
     }
     .subtitle {
-        font-size: 2vw;
+        font-size: 4vw;
     }
     .mobile-content {
         display: flex;
@@ -159,11 +172,26 @@
     .register {
         width: 20%;
         margin-top: 0;
+        font-size: 3.5vw;
         &:hover {
             width: 25%;
         }
     }
     .content {
         display: none;
+    }
+    .particles {
+        position: fixed;
+        right: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .neural-net-image {
+        width: 130%;
     }
 }

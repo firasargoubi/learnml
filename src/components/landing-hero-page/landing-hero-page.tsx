@@ -1,36 +1,54 @@
-import React from 'react';
+import ParticlesBg from 'particles-bg'
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
 import { Col, Row } from 'reactstrap';
 import './landing-hero-page.scss';
 
+
 const LandingHeroPage: React.FC = () => {
   const { t } = useTranslation();
+  const [showParticles, setShowParticles] = useState(false);
+
+  const handleResize = () => setShowParticles(window.innerWidth <= 768);
+
+  useEffect( () => {
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
-    <div className="landing-hero-page">
-      <Row sm="1" md="2" className="content">
-        <Col sm={{ order: 'last' }} md={{ order: 'first' }} className="text-container">
-            <h1 className="title">{t('LandingHeroPage.title')}</h1>
-            <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
-            <p className="subtitle"> {t('LandingHeroPage.when')} </p>
-            <button className="register">
-              <a href="#" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
-            </button>
-        </Col>
-        <Col sm={{ order: 'first' }} md={{ order: 'last' }} className="neural-net-image"/>
-      </Row>
-      <div className="mobile-content">
-        <div className="neural-net-image"/>
-        <h1 className="title">{t('LandingHeroPage.title')}</h1>
-        <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
-        <p className="subtitle"> {t('LandingHeroPage.when')} </p>
-        <button className="register">
-          <a href="#" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
-        </button>
+    <React.Fragment>
+      <div className={showParticles ? "landing-hero-page" : "landing-hero-page bg-color-hack"} style={{ position: 'relative'}}>
+        <Row sm="1" md="2" className="content">
+          <Col sm={{ order: 'last' }} md={{ order: 'first' }} className="text-container">
+              <h1 className="title">{t('LandingHeroPage.firstTitle')} : {t('LandingHeroPage.secondTitle')}</h1>
+              <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
+              <p className="subtitle"> {t('LandingHeroPage.when')} </p>
+              <button className="register">
+                <a href="#" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
+              </button>
+          </Col>
+          <Col sm={{ order: 'first' }} md={{ order: 'last' }} className="neural-net-image"/>
+        </Row>
+        <div className="mobile-content">
+          {/* <div className="neural-net-image"/> */}
+          <h1 className="title">{t('LandingHeroPage.firstTitle')}</h1>
+          <h1 className="title">{t('LandingHeroPage.secondTitle')}</h1>
+          <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
+          <p className="subtitle"> {t('LandingHeroPage.when')} </p>
+          <button className="register">
+            <a href="#" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
+          </button>
+        </div>
+        <Link className="a scroll-down" to="about" smooth={true} duration={1000} />
       </div>
-      <Link className="a scroll-down" to="about" smooth={true} duration={1000} />
-    </div>
+      {/* <div className="particles">
+      </div> */}
+      <ParticlesBg color="#04cfda" type="cobweb" bg={showParticles}  />
+
+    </React.Fragment>
     
   );
 };
