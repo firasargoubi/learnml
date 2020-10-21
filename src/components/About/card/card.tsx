@@ -17,6 +17,6 @@ const Card: React.FC<CardProps> = ({iconPath, text, index}) => {
         <div id="text-container">< p id="cardText">{t('Card['+index+'].text')}</p></div>
     </div>
   );
-}
+};
 
 export default Card;

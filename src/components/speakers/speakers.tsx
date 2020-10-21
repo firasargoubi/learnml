@@ -30,7 +30,7 @@ const Speakers: FunctionComponent = () => {
         else if (window.innerWidth < 1200) {  // > 1200 = large laptops and desktops 
             setMinLength(2);
         } else {
-            setMinLength(3)
+            setMinLength(3);
         }
     };
 
@@ -38,7 +38,7 @@ const Speakers: FunctionComponent = () => {
         window.addEventListener('resize', updateCarousel);
 
         return () =>  window.removeEventListener('resize', updateCarousel);
-    })
+    });
 
     const next = () => {
         if (animating) return;

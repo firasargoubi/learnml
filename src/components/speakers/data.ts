@@ -1,8 +1,7 @@
-import jonathan from './img/jonathan_aws_2.jpg';
-import christine from './img/Christine_Izuakor.jpg';
-import {SpeakerInfo} from './speaker/speaker-info-interface';
 import i18n from '../../i18n';
-
+import christine from './img/Christine_Izuakor.jpg';
+import jonathan from './img/jonathan_aws_2.jpg';
+import {SpeakerInfo} from './speaker/speaker-info-interface';
 
 export const SPEAKERS: SpeakerInfo[] = [
     {

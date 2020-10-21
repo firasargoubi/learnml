@@ -1,10 +1,9 @@
-import ParticlesBg from 'particles-bg'
+import ParticlesBg from 'particles-bg';
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
 import { Col, Row } from 'reactstrap';
 import './landing-hero-page.scss';
-
 
 const LandingHeroPage: React.FC = () => {
   const { t } = useTranslation();
@@ -13,7 +12,7 @@ const LandingHeroPage: React.FC = () => {
 
   const handleResize = () => {
     setShowParticles(window.innerWidth <= 768);
-  }
+  };
 
   useEffect( () => {
     window.addEventListener('resize', handleResize);
@@ -44,7 +43,12 @@ const LandingHeroPage: React.FC = () => {
               <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
               <p className="subtitle"> {t('LandingHeroPage.when')} </p>
               <button className="register">
-                <a href="#" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
+                <a 
+                  href="https://forms.gle/vEbJRKAbYWf6WDP5A" 
+                  target="_blank" 
+                  rel="noopener noreferrer">  
+                    {t('LandingHeroPage.register')}  
+                </a>
               </button>
           </Col>
           <Col sm={{ order: 'first' }} md={{ order: 'last' }} className="neural-net-image"/>
@@ -60,8 +64,9 @@ const LandingHeroPage: React.FC = () => {
         </div>
         <Link className="a scroll-down" to="about" smooth={true} duration={1000} />
       </div> 
-
-      <ParticlesBg color="#04cfda" num={ratio} type="cobweb" bg={showParticles}  />
+      <div style={showParticles? {display: 'block'} : {display: 'none'}}>
+        <ParticlesBg color="#04cfda" num={ratio} type="cobweb" bg={showParticles}  />
+      </div>
 
     </React.Fragment>
     
