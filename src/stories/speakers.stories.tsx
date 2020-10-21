@@ -21,7 +21,7 @@ const anonProfileSrc = 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEA
 const lt3Speakers: SpeakerInfo[] = range(2).map((_, i) => ({
     imgSrc: anonProfileSrc,
     name: `Karen ${i + 1}`,
-    title: 'Minion',
+    i18nTitleKey: 'Minion',
     company: 'Anti-Mask Lobby',
 }));
 
@@ -34,7 +34,7 @@ const mt3Speakers: SpeakerInfo[] = lt3Speakers.concat(
     range(2).map((_, i) => ({
         imgSrc: anonProfileSrc,
         name: `Karen ${i + 3}`,
-        title: 'Minion',
+        i18nTitleKey: 'Minion',
         company: 'Anti-Mask Lobby',
     })),
 );

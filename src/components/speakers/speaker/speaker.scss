@@ -1,13 +1,13 @@
 @import '../../../scss/variables.scss';
 .speaker {
     height: 300px;
-    width: 200px;
+    width: 300px;
     background: $primary;
     .avatar {
         height: 200px;
         width: 200px;
         position: relative;
-        left: 5%;
+        left: 20%;
         .circle-dark {
             fill: #045477
         }
@@ -27,7 +27,7 @@
         height: fit-content;
         color: white;
         text-align: center;
-        width: max-content;
+        width: 100%;
         & :nth-child(1) {
             font-size: 20px;
         }

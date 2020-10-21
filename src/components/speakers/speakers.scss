@@ -9,11 +9,9 @@
     justify-content: center;
     .speaker-wrapper {
         margin: auto;
-        width: fit-content;
+        display: flex;
+        width: 600px;
         padding-top: 5rem;
-        .speaker {
-            display: inline-block;
-        }
     }
     .active {
         background-color: $primary;

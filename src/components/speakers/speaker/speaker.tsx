@@ -1,13 +1,16 @@
 import React, { FunctionComponent } from 'react';
+import { useTranslation } from 'react-i18next';
 import { SpeakerInfo } from './speaker-info-interface';
 import './speaker.scss';
 
 const Speaker: FunctionComponent<SpeakerInfo> = ({
     name,
-    title,
+    i18nTitleKey,
     company,
     imgSrc,
 }) => {
+    const { t } = useTranslation();
+
     return (
         <div className="speaker">
             <div className="avatar">
@@ -22,7 +25,7 @@ const Speaker: FunctionComponent<SpeakerInfo> = ({
             </div>
             <div className="text">
                 <div>{name}</div>
-                <div>{title}</div>
+                <div>{t(i18nTitleKey)}</div>
                 <div>{company}</div>
             </div>
         </div>
