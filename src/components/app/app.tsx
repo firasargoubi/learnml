@@ -6,7 +6,6 @@ import Footer from '../footer/footer';
 import LandingHeroPage from '../landing-hero-page/landing-hero-page';
 import Schedule from '../schedule/schedule';
 import { EVENTS } from '../schedule/schedule-data';
-import { SPEAKERS } from '../speakers/data';
 import Speakers from '../speakers/speakers';
 import Partners from '../sponsors/sponsors';
 import StickyNavBar from '../sticky-navbar/sticky-navbar';
@@ -17,7 +16,7 @@ const App: FunctionComponent = () => (
     <StickyNavBar/>
     <LandingHeroPage/>
     <About/>
-    <Speakers speakers={SPEAKERS}/>
+    <Speakers/>
     <Faq questionAnswers={QUESTION_ANSWERS}/>
     {/* <Schedule events={EVENTS}/> */}
     <Partners/>

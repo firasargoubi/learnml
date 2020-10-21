@@ -5,7 +5,6 @@ import {
     Carousel,
     CarouselControl,
     CarouselItem,
-    Container,
 } from 'reactstrap';
 import { batch } from '../../utils';
 import ContainerHeading from '../common/container-heading';
@@ -18,19 +17,20 @@ export interface SpeakersProps {
     speakers: SpeakerInfo[];
 }
 
-const Speakers: FunctionComponent<SpeakersProps> = ({
-    speakers,
-}) => {
+const Speakers: FunctionComponent = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
     const [minLength, setMinLength] = useState(2);
     const { t } = useTranslation();
 
     const updateCarousel = () => {
-        if (window.innerWidth < 678) {  // taille où deux un à côté de l'autre c'est laid / s'embarque dessus
+        if (window.innerWidth < 678) { // taille où deux un à côté de l'autre c'est laid / s'embarque dessus
             setMinLength(1);
-        } else {
+        }
+        else if (window.innerWidth < 1200) {  // > 1200 = large laptops and desktops 
             setMinLength(2);
+        } else {
+            setMinLength(3)
         }
     };
 
@@ -43,18 +43,18 @@ const Speakers: FunctionComponent<SpeakersProps> = ({
     const next = () => {
         if (animating) return;
         const nextIndex =
-            activeIndex === speakers.length - 1 ? 0 : activeIndex + 1;
+            activeIndex === SPEAKERS.length - 1 ? 0 : activeIndex + 1;
         setActiveIndex(nextIndex);
     };
 
     const previous = () => {
         if (animating) return;
         const nextIndex =
-            activeIndex === 0 ? speakers.length - 1 : activeIndex - 1;
+            activeIndex === 0 ? SPEAKERS.length - 1 : activeIndex - 1;
         setActiveIndex(nextIndex);
     };
 
-    const slides = batch(speakers, minLength).map((speakersBatch, i) => {
+    const slides = batch(SPEAKERS, minLength).map((speakersBatch, i) => {
         return (
             <CarouselItem
                 onExiting={() => setAnimating(true)}

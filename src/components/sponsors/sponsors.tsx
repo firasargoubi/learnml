@@ -8,14 +8,20 @@ import './sponsors.scss';
 
 const IMG_ALT_TXT = 'Could not load image';
 
-const generateLogos = (parterClass: string, xs: string, md: string, array: Sponsor[]) => {
+const generateLogos = (xs: string, md: string, array: Sponsor[]) => {
     return (
         <Row xs={xs} md={md} className="parters-center">
                 {
                     array.map( (sponsor: Sponsor, index: number) => {
                         return (
                             <Col key={index} className="center-logos">
-                                <img src={sponsor.imgPath} alt={sponsor.name}/>
+                                {sponsor.website ?
+                                    <a href="https://www.joinglimpse.com/" target="_blank">
+                                        <img src={sponsor.imgPath} alt={sponsor.name}/>
+                                    </a>
+                                    :
+                                    <img src={sponsor.imgPath} alt={sponsor.name}/>
+                                }
                             </Col>
                         );
                     })
@@ -32,10 +38,10 @@ const Partners: FunctionComponent = () => {
             <ContainerHeading title={t('Partners.title')}/>
             <div className="parters-center">
                 <div className="partners-logos-container">
-                    {generateLogos('platinum', '1', '2', PLATINUM)}
-                    {generateLogos('gold', '2', '3', GOLD)}
-                    {generateLogos('silver', '3', '4', SILVER)}
-                    {generateLogos('bronze', '4', '5', BRONZE)}
+                    {generateLogos('1', '2', PLATINUM)}
+                    {generateLogos('2', '3', GOLD)}
+                    {generateLogos('3', '4', SILVER)}
+                    {generateLogos('4', '5', BRONZE)}
                 </div>
             </div>
             <div className="parters-center">
