@@ -59,7 +59,7 @@ const LandingHeroPage: React.FC = () => {
           <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
           <p className="subtitle"> {t('LandingHeroPage.when')} </p>
           <button className="register">
-            <a href="#" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
+            <a href="https://forms.gle/vEbJRKAbYWf6WDP5A" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
           </button>
         </div>
         <Link className="a scroll-down" to="about" smooth={true} duration={1000} />
