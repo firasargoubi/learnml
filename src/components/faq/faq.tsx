@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Col, Container, Row } from 'reactstrap';
+import { Col, Row } from 'reactstrap';
 import ContainerHeading from '../common/container-heading';
 import Accordion from './accordion/accordion';
 import './faq.scss';
