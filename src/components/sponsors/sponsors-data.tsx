@@ -1,3 +1,4 @@
+import BNC from './img/bnc.png';
 import GLIMPSE from './img/glimpse.png';
 import IVADO from './img/ivado_logo.svg';
 import GIRO from './img/logo_giro.png';
@@ -17,7 +18,12 @@ export const PLATINUM: Sponsor[] = [{
 
 export const GOLD: Sponsor[] = [];
 
-export const SILVER: Sponsor[] = [{
+export const SILVER: Sponsor[] = [
+    {
+        name: 'National Bank of Canada',
+        imgPath: BNC,
+    },
+    {
         name: 'Giro',
         imgPath: GIRO,
     },

@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.136a15df.chunk.css",
-    "main.js": "/static/js/main.1f876f51.chunk.js",
-    "main.js.map": "/static/js/main.1f876f51.chunk.js.map",
+    "main.js": "/static/js/main.d849b48a.chunk.js",
+    "main.js.map": "/static/js/main.d849b48a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2dd8168.js",
     "runtime-main.js.map": "/static/js/runtime-main.d2dd8168.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.f3d488f9.chunk.js": "/static/js/2.f3d488f9.chunk.js",
-    "static/js/2.f3d488f9.chunk.js.map": "/static/js/2.f3d488f9.chunk.js.map",
+    "static/js/2.ed1ebbed.chunk.js": "/static/js/2.ed1ebbed.chunk.js",
+    "static/js/2.ed1ebbed.chunk.js.map": "/static/js/2.ed1ebbed.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.80f125753fdba5d4cb83635f1b0597bd.js": "/precache-manifest.80f125753fdba5d4cb83635f1b0597bd.js",
+    "precache-manifest.d0bd68cff09c9b5b41a0f22790db3351.js": "/precache-manifest.d0bd68cff09c9b5b41a0f22790db3351.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.136a15df.chunk.css.map": "/static/css/main.136a15df.chunk.css.map",
-    "static/js/2.f3d488f9.chunk.js.LICENSE.txt": "/static/js/2.f3d488f9.chunk.js.LICENSE.txt",
+    "static/js/2.ed1ebbed.chunk.js.LICENSE.txt": "/static/js/2.ed1ebbed.chunk.js.LICENSE.txt",
     "static/media/Christine_Izuakor.jpg": "/static/media/Christine_Izuakor.daeb774c.jpg",
     "static/media/Polytechnique_logo.png": "/static/media/Polytechnique_logo.0ca947d8.png",
     "static/media/landing-hero-page.scss": "/static/media/backgroundImg.1f304dc2.png",
+    "static/media/bnc.png": "/static/media/bnc.1ab4d3be.png",
     "static/media/bottomleft-icon.png": "/static/media/bottomleft-icon.c6b8d57c.png",
     "static/media/bottomright-icon.png": "/static/media/bottomright-icon.393a2af8.png",
     "static/media/about.scss": "/static/media/brainImage.edf4bdde.png",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.d2dd8168.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.f3d488f9.chunk.js",
+    "static/js/2.ed1ebbed.chunk.js",
     "static/css/main.136a15df.chunk.css",
-    "static/js/main.1f876f51.chunk.js"
+    "static/js/main.d849b48a.chunk.js"
   ]
 }
