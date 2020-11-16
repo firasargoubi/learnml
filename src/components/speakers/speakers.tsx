@@ -24,17 +24,19 @@ const Speakers: FunctionComponent = () => {
     const { t } = useTranslation();
 
     const updateCarousel = () => {
-        if (window.innerWidth < 678) { // taille où deux un à côté de l'autre c'est laid / s'embarque dessus
+        if (window.innerWidth < 960) { // taille où deux un à côté de l'autre c'est laid / s'embarque dessus
             setMinLength(1);
         }
-        else if (window.innerWidth < 1200) {  // > 1200 = large laptops and desktops 
-            setMinLength(2);
-        } else {
+        // else if (window.innerWidth < 1200) {  // > 1200 = large laptops and desktops 
+        //     setMinLength(2);
+        // } 
+        else {
             setMinLength(3);
         }
     };
 
     useEffect( () => {
+        updateCarousel();
         window.addEventListener('resize', updateCarousel);
 
         return () =>  window.removeEventListener('resize', updateCarousel);
@@ -76,7 +78,7 @@ const Speakers: FunctionComponent = () => {
             <div>
                 <Carousel
                     ride="carousel"
-                    interval={slides.length > minLength ? '3500': false}
+                    interval={slides.length > minLength ? '2000': false}
                     activeIndex={activeIndex}
                     next={next}
                     previous={previous}
@@ -99,7 +101,7 @@ const Speakers: FunctionComponent = () => {
                     }
                 </Carousel>
             </div>
-            <h6> {t('Speakers.emailUs')}</h6>
+            {/* <h6> {t('Speakers.emailUs')}</h6> */}
         </div>
     );
 };

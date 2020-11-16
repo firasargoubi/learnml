@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.136a15df.chunk.css",
-    "main.js": "/static/js/main.fd7960a1.chunk.js",
-    "main.js.map": "/static/js/main.fd7960a1.chunk.js.map",
+    "main.css": "/static/css/main.6f5c9983.chunk.css",
+    "main.js": "/static/js/main.fc2cfdc2.chunk.js",
+    "main.js.map": "/static/js/main.fc2cfdc2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2dd8168.js",
     "runtime-main.js.map": "/static/js/runtime-main.d2dd8168.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.ed1ebbed.chunk.js": "/static/js/2.ed1ebbed.chunk.js",
-    "static/js/2.ed1ebbed.chunk.js.map": "/static/js/2.ed1ebbed.chunk.js.map",
+    "static/js/2.193481cf.chunk.js": "/static/js/2.193481cf.chunk.js",
+    "static/js/2.193481cf.chunk.js.map": "/static/js/2.193481cf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f9a120aa4efc7f647df22a1b1f49a6be.js": "/precache-manifest.f9a120aa4efc7f647df22a1b1f49a6be.js",
+    "precache-manifest.e8cc4d210b576f474a505b57e60cf818.js": "/precache-manifest.e8cc4d210b576f474a505b57e60cf818.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.136a15df.chunk.css.map": "/static/css/main.136a15df.chunk.css.map",
-    "static/js/2.ed1ebbed.chunk.js.LICENSE.txt": "/static/js/2.ed1ebbed.chunk.js.LICENSE.txt",
+    "static/css/main.6f5c9983.chunk.css.map": "/static/css/main.6f5c9983.chunk.css.map",
+    "static/js/2.193481cf.chunk.js.LICENSE.txt": "/static/js/2.193481cf.chunk.js.LICENSE.txt",
+    "static/media/Charles_Fleurent.jpg": "/static/media/Charles_Fleurent.0fc30d97.jpg",
     "static/media/Christine_Izuakor.jpg": "/static/media/Christine_Izuakor.daeb774c.jpg",
     "static/media/Polytechnique_logo.png": "/static/media/Polytechnique_logo.0ca947d8.png",
     "static/media/landing-hero-page.scss": "/static/media/backgroundImg.1f304dc2.png",
-    "static/media/bnc.png": "/static/media/bnc.1ab4d3be.png",
+    "static/media/bnc_blanc.svg": "/static/media/bnc_blanc.bbab5bfb.svg",
     "static/media/bottomleft-icon.png": "/static/media/bottomleft-icon.c6b8d57c.png",
     "static/media/bottomright-icon.png": "/static/media/bottomright-icon.393a2af8.png",
     "static/media/about.scss": "/static/media/brainImage.edf4bdde.png",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.d2dd8168.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.ed1ebbed.chunk.js",
-    "static/css/main.136a15df.chunk.css",
-    "static/js/main.fd7960a1.chunk.js"
+    "static/js/2.193481cf.chunk.js",
+    "static/css/main.6f5c9983.chunk.css",
+    "static/js/main.fc2cfdc2.chunk.js"
   ]
 }

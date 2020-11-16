@@ -1,4 +1,5 @@
 import i18n from '../../i18n';
+import charles from './img/Charles_Fleurent.jpg';
 import christine from './img/Christine_Izuakor.jpg';
 import jonathan from './img/jonathan_aws_2.jpg';
 import {SpeakerInfo} from './speaker/speaker-info-interface';
@@ -15,5 +16,11 @@ export const SPEAKERS: SpeakerInfo[] = [
         name: 'Christine Izuakor',
         i18nTitleKey: 'Speakers.speaker[1]',
         company: 'Cyber Pop-up',
+    },
+    {
+        imgSrc: charles,
+        name: 'Charles Fleurent',
+        i18nTitleKey: 'Speakers.speaker[2]',
+        company: 'GIRO',
     },
 ];

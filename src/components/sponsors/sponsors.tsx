@@ -44,11 +44,11 @@ const Partners: FunctionComponent = () => {
                     {generateLogos('4', '5', BRONZE)}
                 </div>
             </div>
-            <div className="parters-center">
+            {/* <div className="parters-center">
                 <Button className="sponsor-us-btn"> 
                     <a href="mailto:comitepolyai@gmail.com" target="_blank">  {t('Partners.sponsor')}  </a>
                 </Button>
-            </div>
+            </div> */}
         </div>
     );
 };

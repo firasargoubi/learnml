@@ -1,4 +1,4 @@
-import BNC from './img/bnc.png';
+import BNC from './img/bnc_blanc.svg';
 import GLIMPSE from './img/glimpse.png';
 import IVADO from './img/ivado_logo.svg';
 import GIRO from './img/logo_giro.png';
