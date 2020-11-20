@@ -38,6 +38,7 @@ const Schedule: FunctionComponent<ScheduleProps> = ({
     return (
         <div className="schedule">
             <ContainerHeading title={t('Schedule.title')}/>
+            <h5>{t('Schedule.warning')}</h5>
             <Nav tabs={true}>
                {events.map((_, i) => (
                     <NavItem
@@ -59,7 +60,7 @@ const Schedule: FunctionComponent<ScheduleProps> = ({
                             {day.map((event, j) => (
                                 <Row className="event" key={j}>
                                     <Col md="3">{event.time}</Col>
-                                    <Col md="9">{event.description}</Col>
+                                    <Col md="9">{t(event.descriptioni18nKey)}</Col>
                                 </Row>
                             ))}
                         </Container>

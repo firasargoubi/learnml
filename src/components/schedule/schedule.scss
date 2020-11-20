@@ -5,6 +5,9 @@
     font-family: 'Segoe UI';
     min-height: 100vh;
     padding: 5%;
+    h5 {
+        text-align: center;
+    }
     .nav {
         border: none;
         font-size: 1.75vw;
@@ -36,5 +39,38 @@
     }
     .nav-item.active {
         background-color: $secondary;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .schedule {
+        .nav {
+            font-size: 2.5vw;
+        }
+        .event {
+            font-size: 2.0vw;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .schedule {
+        .nav {
+            font-size: 3.5vw;
+        }
+        .event {
+            font-size: 3vw;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .schedule {
+        .nav {
+            font-size: 4.5vw;
+        }
+        .event {
+            font-size: 4vw;
+        }
     }
 }

@@ -27,11 +27,11 @@ const Speakers: FunctionComponent = () => {
         if (window.innerWidth < 960) { // taille où deux un à côté de l'autre c'est laid / s'embarque dessus
             setMinLength(1);
         }
-        // else if (window.innerWidth < 1200) {  // > 1200 = large laptops and desktops 
-        //     setMinLength(2);
-        // } 
+        else if (window.innerWidth < 1300) {  // > 1200 = large laptops and desktops 
+            setMinLength(2);
+        } 
         else {
-            setMinLength(3);
+            setMinLength(4);
         }
     };
 
@@ -41,20 +41,6 @@ const Speakers: FunctionComponent = () => {
 
         return () =>  window.removeEventListener('resize', updateCarousel);
     });
-
-    const next = () => {
-        if (animating) return;
-        const nextIndex =
-            activeIndex === SPEAKERS.length - 1 ? 0 : activeIndex + 1;
-        setActiveIndex(nextIndex);
-    };
-
-    const previous = () => {
-        if (animating) return;
-        const nextIndex =
-            activeIndex === 0 ? SPEAKERS.length - 1 : activeIndex - 1;
-        setActiveIndex(nextIndex);
-    };
 
     const slides = batch(SPEAKERS, minLength).map((speakersBatch, i) => {
         return (
@@ -72,6 +58,20 @@ const Speakers: FunctionComponent = () => {
         );
     });
 
+    const next = () => {
+        if (animating) return;
+        const nextIndex =
+            activeIndex === slides.length - 1 ? 0 : activeIndex + 1;
+        setActiveIndex(nextIndex);
+    };
+
+    const previous = () => {
+        if (animating) return;
+        const nextIndex =
+            activeIndex === 0 ? slides.length - 1 : activeIndex - 1;
+        setActiveIndex(nextIndex);
+    };
+
     return (
         <div className="speakers">
             <ContainerHeading title={t('Speakers.title')}/>
@@ -85,7 +85,7 @@ const Speakers: FunctionComponent = () => {
                 >
                     {slides}
 
-                    {slides.length > minLength &&
+                    {SPEAKERS.length > minLength &&
                         <div>
                             <CarouselControl
                                 direction="prev"

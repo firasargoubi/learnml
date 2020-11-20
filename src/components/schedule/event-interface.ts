@@ -1,4 +1,4 @@
 export interface Event {
     time: string;
-    description: string;
+    descriptioni18nKey: string;
 }

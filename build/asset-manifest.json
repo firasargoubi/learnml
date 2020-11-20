@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f5c9983.chunk.css",
-    "main.js": "/static/js/main.fc2cfdc2.chunk.js",
-    "main.js.map": "/static/js/main.fc2cfdc2.chunk.js.map",
+    "main.css": "/static/css/main.b45f8feb.chunk.css",
+    "main.js": "/static/js/main.23f14c87.chunk.js",
+    "main.js.map": "/static/js/main.23f14c87.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2dd8168.js",
     "runtime-main.js.map": "/static/js/runtime-main.d2dd8168.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.193481cf.chunk.js": "/static/js/2.193481cf.chunk.js",
-    "static/js/2.193481cf.chunk.js.map": "/static/js/2.193481cf.chunk.js.map",
+    "static/js/2.39d2cf49.chunk.js": "/static/js/2.39d2cf49.chunk.js",
+    "static/js/2.39d2cf49.chunk.js.map": "/static/js/2.39d2cf49.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e8cc4d210b576f474a505b57e60cf818.js": "/precache-manifest.e8cc4d210b576f474a505b57e60cf818.js",
+    "precache-manifest.ef1c2b6b7eab05fb4a3875699097c969.js": "/precache-manifest.ef1c2b6b7eab05fb4a3875699097c969.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.6f5c9983.chunk.css.map": "/static/css/main.6f5c9983.chunk.css.map",
-    "static/js/2.193481cf.chunk.js.LICENSE.txt": "/static/js/2.193481cf.chunk.js.LICENSE.txt",
+    "static/css/main.b45f8feb.chunk.css.map": "/static/css/main.b45f8feb.chunk.css.map",
+    "static/js/2.39d2cf49.chunk.js.LICENSE.txt": "/static/js/2.39d2cf49.chunk.js.LICENSE.txt",
     "static/media/Charles_Fleurent.jpg": "/static/media/Charles_Fleurent.0fc30d97.jpg",
     "static/media/Christine_Izuakor.jpg": "/static/media/Christine_Izuakor.daeb774c.jpg",
     "static/media/Polytechnique_logo.png": "/static/media/Polytechnique_logo.0ca947d8.png",
@@ -28,14 +28,15 @@
     "static/media/logo_giro.png": "/static/media/logo_giro.330e716e.png",
     "static/media/logo_polyai.png": "/static/media/logo_polyai.c46046ee.png",
     "static/media/logo_polyai_blanc.03ade7ef.svg": "/static/media/logo_polyai_blanc.03ade7ef.svg",
+    "static/media/timothy.png": "/static/media/timothy.2ebebeb2.png",
     "static/media/topleft-icon.png": "/static/media/topleft-icon.660e0e0c.png",
     "static/media/topright-icon.png": "/static/media/topright-icon.c4fda149.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d2dd8168.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.193481cf.chunk.js",
-    "static/css/main.6f5c9983.chunk.css",
-    "static/js/main.fc2cfdc2.chunk.js"
+    "static/js/2.39d2cf49.chunk.js",
+    "static/css/main.b45f8feb.chunk.css",
+    "static/js/main.23f14c87.chunk.js"
   ]
 }

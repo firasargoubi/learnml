@@ -18,7 +18,7 @@ const App: FunctionComponent = () => (
     <About/>
     <Speakers/>
     <Faq questionAnswers={QUESTION_ANSWERS}/>
-    {/* <Schedule events={EVENTS}/> */}
+    <Schedule events={EVENTS}/>
     <Partners/>
     <Footer />
   </div>
