@@ -61,7 +61,8 @@ const LandingHeroPage: React.FC = () => {
         <Link className="a scroll-down" to="about" smooth={true} duration={1000} />
       </div> 
 
-      <ParticlesBg color="#04cfda" num={ratio} type="cobweb" bg={showParticles}  />
+      {showParticles && 
+         <ParticlesBg color="#04cfda" num={ratio} type="cobweb" bg={showParticles}  /> }
 
     </React.Fragment>
     
