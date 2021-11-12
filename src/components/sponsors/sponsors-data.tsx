@@ -1,8 +1,6 @@
-import BNC from './img/bnc_blanc.svg';
-import GLIMPSE from './img/glimpse.png';
-import IVADO from './img/ivado_logo.svg';
-import GIRO from './img/logo_giro.png';
+import BNC from './img/bnc_blanc.png';
 import POLY from './img/Polytechnique_logo.png';
+import TECHNATION from './img/glimpse.png';
 
 export interface Sponsor {
     name: string;
@@ -10,28 +8,21 @@ export interface Sponsor {
     website?: string;
 }
 
-export const PLATINUM: Sponsor[] = [{
-    name: 'Glimpse',
-    imgPath: GLIMPSE,
-    website: 'https://www.joinglimpse.com/',
-}];
+export const PLATINUM: Sponsor[] = [];
 
-export const GOLD: Sponsor[] = [];
-
-export const SILVER: Sponsor[] = [
-    {
-        name: 'National Bank of Canada',
-        imgPath: BNC,
-    },
-    {
-        name: 'Giro',
-        imgPath: GIRO,
-    },
+export const GOLD: Sponsor[] = [
+    // {
+    // name: 'Technation',
+    // imgPath: TECHNATION,
+    // website: 'https://technationcanada.ca/en/',
+    // }
 ];
 
+export const SILVER: Sponsor[] = [];
+
 export const BRONZE: Sponsor[] = [{
-        name: 'IVADO',
-        imgPath: IVADO,
+        name: 'Banque Nationale',
+        imgPath: BNC,
     }, {
         name: 'Polytechnique Montreal',
         imgPath: POLY,

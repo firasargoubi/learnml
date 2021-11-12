@@ -43,12 +43,7 @@ const LandingHeroPage: React.FC = () => {
               <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
               <p className="subtitle"> {t('LandingHeroPage.when')} </p>
               <button className="register">
-                <a 
-                  href="https://forms.gle/vEbJRKAbYWf6WDP5A" 
-                  target="_blank" 
-                  rel="noopener noreferrer">  
-                    {t('LandingHeroPage.register')}  
-                </a>
+                <a href="https://forms.gle/Tc2iDSRy6851cHf38" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
               </button>
           </Col>
           <Col sm={{ order: 'first' }} md={{ order: 'last' }} className="neural-net-image"/>
@@ -64,9 +59,9 @@ const LandingHeroPage: React.FC = () => {
         </div>
         <Link className="a scroll-down" to="about" smooth={true} duration={1000} />
       </div> 
-      <div style={showParticles? {display: 'block'} : {display: 'none'}}>
-        <ParticlesBg color="#04cfda" num={ratio} type="cobweb" bg={showParticles}  />
-      </div>
+
+      {showParticles && 
+         <ParticlesBg color="#04cfda" num={ratio} type="cobweb" bg={showParticles}  /> }
 
     </React.Fragment>
     

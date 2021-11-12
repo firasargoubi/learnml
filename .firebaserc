@@ -1,5 +1,6 @@
 {
   "projects": {
     "default": "codeml-cd822"
-  }
+  },
+  "targets": {}
 }
