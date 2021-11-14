@@ -1,57 +1,17 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/static/css/main.b45f8feb.chunk.css",
-    "main.js": "/static/js/main.23f14c87.chunk.js",
-    "main.js.map": "/static/js/main.23f14c87.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d2dd8168.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d2dd8168.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.39d2cf49.chunk.js": "/static/js/2.39d2cf49.chunk.js",
-    "static/js/2.39d2cf49.chunk.js.map": "/static/js/2.39d2cf49.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ef1c2b6b7eab05fb4a3875699097c969.js": "/precache-manifest.ef1c2b6b7eab05fb4a3875699097c969.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.b45f8feb.chunk.css.map": "/static/css/main.b45f8feb.chunk.css.map",
-    "static/js/2.39d2cf49.chunk.js.LICENSE.txt": "/static/js/2.39d2cf49.chunk.js.LICENSE.txt",
-    "static/media/Charles_Fleurent.jpg": "/static/media/Charles_Fleurent.0fc30d97.jpg",
-    "static/media/Christine_Izuakor.jpg": "/static/media/Christine_Izuakor.daeb774c.jpg",
-    "static/media/Polytechnique_logo.png": "/static/media/Polytechnique_logo.0ca947d8.png",
-    "static/media/landing-hero-page.scss": "/static/media/backgroundImg.1f304dc2.png",
-    "static/media/bnc_blanc.svg": "/static/media/bnc_blanc.bbab5bfb.svg",
-    "static/media/bottomleft-icon.png": "/static/media/bottomleft-icon.c6b8d57c.png",
-    "static/media/bottomright-icon.png": "/static/media/bottomright-icon.393a2af8.png",
-    "static/media/about.scss": "/static/media/brainImage.edf4bdde.png",
-    "static/media/glimpse.png": "/static/media/glimpse.5b3c4e72.png",
-    "static/media/ivado_logo.svg": "/static/media/ivado_logo.5c004f9e.svg",
-    "static/media/jonathan_aws_2.jpg": "/static/media/jonathan_aws_2.44d2137a.jpg",
-    "static/media/logo_giro.png": "/static/media/logo_giro.330e716e.png",
-    "static/media/logo_polyai.png": "/static/media/logo_polyai.c46046ee.png",
-    "static/media/logo_polyai_blanc.03ade7ef.svg": "/static/media/logo_polyai_blanc.03ade7ef.svg",
-    "static/media/timothy.png": "/static/media/timothy.2ebebeb2.png",
-    "static/media/topleft-icon.png": "/static/media/topleft-icon.660e0e0c.png",
-    "static/media/topright-icon.png": "/static/media/topright-icon.c4fda149.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.d2dd8168.js",
-    "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.39d2cf49.chunk.js",
-    "static/css/main.b45f8feb.chunk.css",
-    "static/js/main.23f14c87.chunk.js"
-=======
     "main.css": "/static/css/main.b0008c0a.chunk.css",
-    "main.js": "/static/js/main.d4f59586.chunk.js",
-    "main.js.map": "/static/js/main.d4f59586.chunk.js.map",
+    "main.js": "/static/js/main.706bec7b.chunk.js",
+    "main.js.map": "/static/js/main.706bec7b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.34a6e368.js",
     "runtime-main.js.map": "/static/js/runtime-main.34a6e368.js.map",
     "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
-    "static/js/2.f1fbaa79.chunk.js": "/static/js/2.f1fbaa79.chunk.js",
-    "static/js/2.f1fbaa79.chunk.js.map": "/static/js/2.f1fbaa79.chunk.js.map",
+    "static/js/2.31ae168b.chunk.js": "/static/js/2.31ae168b.chunk.js",
+    "static/js/2.31ae168b.chunk.js.map": "/static/js/2.31ae168b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
     "static/css/main.b0008c0a.chunk.css.map": "/static/css/main.b0008c0a.chunk.css.map",
-    "static/js/2.f1fbaa79.chunk.js.LICENSE.txt": "/static/js/2.f1fbaa79.chunk.js.LICENSE.txt",
+    "static/js/2.31ae168b.chunk.js.LICENSE.txt": "/static/js/2.31ae168b.chunk.js.LICENSE.txt",
     "static/media/Polytechnique_logo.0b6b9a75.png": "/static/media/Polytechnique_logo.0b6b9a75.png",
     "static/media/landing-hero-page.scss": "/static/media/backgroundImg.ea60373b.png",
     "static/media/bnc_blanc.4f8872f8.png": "/static/media/bnc_blanc.4f8872f8.png",
@@ -66,9 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.34a6e368.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.f1fbaa79.chunk.js",
+    "static/js/2.31ae168b.chunk.js",
     "static/css/main.b0008c0a.chunk.css",
-    "static/js/main.d4f59586.chunk.js"
->>>>>>> master
+    "static/js/main.706bec7b.chunk.js"
   ]
 }
