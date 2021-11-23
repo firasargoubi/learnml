@@ -16,7 +16,7 @@ const generateLogos = (xs: string, md: string, array: Sponsor[]) => {
                         return (
                             <Col key={index} className="center-logos">
                                 {sponsor.website ?
-                                    <a href="https://www.joinglimpse.com/" target="_blank" rel="noopener noreferrer">
+                                    <a href={sponsor.website} target="_blank" rel="noopener noreferrer">
                                         <img src={sponsor.imgPath} alt={sponsor.name} width="100%"/>
                                     </a>
                                     :

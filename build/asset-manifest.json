@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b0008c0a.chunk.css",
-    "main.js": "/static/js/main.bc0af69c.chunk.js",
-    "main.js.map": "/static/js/main.bc0af69c.chunk.js.map",
+    "main.js": "/static/js/main.4289a931.chunk.js",
+    "main.js.map": "/static/js/main.4289a931.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.34a6e368.js",
     "runtime-main.js.map": "/static/js/runtime-main.34a6e368.js.map",
     "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/bottomleft-icon.e2b5200e.png": "/static/media/bottomleft-icon.e2b5200e.png",
     "static/media/bottomright-icon.28e52efd.png": "/static/media/bottomright-icon.28e52efd.png",
     "static/media/about.scss": "/static/media/brainImage.3bd1c289.png",
+    "static/media/intact.321a5065.png": "/static/media/intact.321a5065.png",
     "static/media/logo_polyai.dc357169.png": "/static/media/logo_polyai.dc357169.png",
     "static/media/logo_polyai_blanc.271100d7.svg": "/static/media/logo_polyai_blanc.271100d7.svg",
     "static/media/topleft-icon.2a9f5e25.png": "/static/media/topleft-icon.2a9f5e25.png",
@@ -28,6 +29,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.31ae168b.chunk.js",
     "static/css/main.b0008c0a.chunk.css",
-    "static/js/main.bc0af69c.chunk.js"
+    "static/js/main.4289a931.chunk.js"
   ]
 }

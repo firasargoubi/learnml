@@ -36,7 +36,7 @@
     "QuestionAnswer.element3.question": "Quelle est la taille maximale pour les équipes?",
     "QuestionAnswer.element3.answer": "Les équipes peuvent avoir jusqu'à 4 membres.",
     "QuestionAnswer.element4.question": "Quelle est la date limite pour s'inscrire?",
-    "QuestionAnswer.element4.answer": "Les inscriptions ferment le 23 novembre à 23h59 EST.",
+    "QuestionAnswer.element4.answer": "Les inscriptions ferment le 25 novembre à 23h59 EST.",
     "QuestionAnswer.element5.question": "Quels types de projets créons-nous?",
     "QuestionAnswer.element5.answer": "Notre hackathon est différent des autres. On vous donnes un jeu de données par défi avec un notebook de départ et votre objectif sera d'améliorer le modèle pour qu'il obtienne de meilleures prédictions!",
     "QuestionAnswer.element6.question": "Que faire si je ne sais pas comment créer des modèles d'apprentissage automatique?",
