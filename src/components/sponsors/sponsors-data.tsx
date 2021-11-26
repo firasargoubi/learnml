@@ -1,7 +1,7 @@
 import BNC from './img/bnc_blanc.png';
 import POLY from './img/Polytechnique_logo.png';
 import TECHNATION from './img/technation.png';
-import INTACT from './img/intact.png';
+import INTACT from './img/intactlab.png';
 
 
 export interface Sponsor {
