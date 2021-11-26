@@ -14,6 +14,6 @@ export const SPEAKERS: SpeakerInfo[] = [
     imgSrc: fabrice,
     name: 'Fabrice Charbonneau',
     i18nTitleKey: 'Speakers.speaker[1]',
-    company: 'Intact Labs',
+    company: 'Intact Lab',
   },
 ];
