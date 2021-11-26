@@ -58,7 +58,16 @@ const StickyNavBar: FunctionComponent = () => {
                 {t('App.about')}
               </Link>
             </li>
-            {/*<li><Link className="a" to="speakers" smooth={true} duration={DURATION}>{t('App.speakers')}</Link></li>*/}
+            <li>
+              <Link
+                className='a'
+                to='speakers'
+                smooth={true}
+                duration={DURATION}
+              >
+                {t('App.speakers')}
+              </Link>
+            </li>
             <li>
               <Link className='a' to='faq' smooth={true} duration={DURATION}>
                 {t('App.faq')}
