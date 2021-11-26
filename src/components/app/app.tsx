@@ -16,7 +16,7 @@ const App: FunctionComponent = () => (
     <StickyNavBar />
     <LandingHeroPage />
     <About />
-    {/* <Speakers /> */}
+    <Speakers />
     <Faq questionAnswers={QUESTION_ANSWERS} />
     <Schedule events={EVENTS} />
     <Partners />
