@@ -42,9 +42,11 @@ const StickyNavBar: FunctionComponent = () => {
       <nav className={scrolled ? 'nav-container scroll' : 'nav-container'}>
         <div className='nav-row'style={{whiteSpace:'nowrap',display:'inline'}}>
           <div className='margin-left-image align-center' style={{whiteSpace:'nowrap',display:'inline-flex'}}>
-            <img className='nav-logo' src={logo} alt='logo polyai' />
+            <img className='nav-logo' src={logo} alt='logo polyai' onClick={()=>
+            window.open('https://polyai.ca/', '_blank')} />
             <p className='text-image'>X</p>
-            <img className='nav-logo' src={logo_selma} alt='logo selma' />     
+            <img className='nav-logo' src={logo_selma} alt='logo selma' onClick={()=>
+            window.open('https://semla.quebec/en/', '_blank')} />     
           </div>     
           <ul className={showNav ? 'main-nav show' : 'main-nav'}>
             <li>

@@ -55,6 +55,9 @@
         height: 40px;
         float: left;
         margin-top: 1.5%;
+        &:hover {
+            cursor: pointer;
+        }
     }
     /*** mobile nav ***/
     
