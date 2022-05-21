@@ -20,6 +20,7 @@
     .main-nav {
         float: right;
         list-style: none;
+        margin-right: 2%;
     }
     
     .main-nav li {
@@ -54,6 +55,9 @@
         height: 40px;
         float: left;
         margin-top: 1.5%;
+        &:hover {
+            cursor: pointer;
+        }
     }
     /*** mobile nav ***/
     
@@ -77,7 +81,23 @@
             cursor: pointer;
         }
     }
-    
+
+    .margin-left-image{
+        margin-top: 1%;
+    }
+
+    .align-center{
+        text-align: center;
+    }
+
+    .text-image{
+        color: white;
+        margin-bottom: 0;
+        margin-right: 2%;
+        padding-top: 2%;
+        font-size: x-large;
+    }
+
     @media only screen and (max-width: 1200px) {
         .main-nav {
             margin-right: 30px;
