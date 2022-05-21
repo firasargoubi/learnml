@@ -3,7 +3,7 @@ import React, { FunctionComponent, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import scroll, { Link } from 'react-scroll';
 import logo from '../../images/logo_polyai.png';
-import logo_selma from '../sponsors/img/selma_logo.png';
+import logo_semla from '../sponsors/img/semla_logo.png';
 import './sticky-navbar.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -40,14 +40,28 @@ const StickyNavBar: FunctionComponent = () => {
   return (
     <div className='App'>
       <nav className={scrolled ? 'nav-container scroll' : 'nav-container'}>
-        <div className='nav-row'style={{whiteSpace:'nowrap',display:'inline'}}>
-          <div className='margin-left-image align-center' style={{whiteSpace:'nowrap',display:'inline-flex'}}>
-            <img className='nav-logo' src={logo} alt='logo polyai' onClick={()=>
-            window.open('https://polyai.ca/', '_blank')} />
+        <div
+          className='nav-row'
+          style={{ whiteSpace: 'nowrap', display: 'inline' }}
+        >
+          <div
+            className='margin-left-image align-center'
+            style={{ whiteSpace: 'nowrap', display: 'inline-flex' }}
+          >
+            <img
+              className='nav-logo'
+              src={logo}
+              alt='logo polyai'
+              onClick={() => window.open('https://polyai.ca/', '_blank')}
+            />
             <p className='text-image'>X</p>
-            <img className='nav-logo' src={logo_selma} alt='logo selma' onClick={()=>
-            window.open('https://semla.quebec/en/', '_blank')} />     
-          </div>     
+            <img
+              className='nav-logo'
+              src={logo_semla}
+              alt='logo semla'
+              onClick={() => window.open('https://semla.quebec/en/', '_blank')}
+            />
+          </div>
           <ul className={showNav ? 'main-nav show' : 'main-nav'}>
             <li>
               <Link
