@@ -18,6 +18,9 @@ import { CardData, DATA } from './card/card-data';
             <p className="about-text">
               {t('About.about')}
             </p>
+            <p className='about-text'>
+             {t('About.selma')}
+             </p>
           </Col>
           <Col xs="0">
             <div className="brain-image" />

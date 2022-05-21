@@ -43,7 +43,7 @@ const LandingHeroPage: React.FC = () => {
               <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
               <p className="subtitle"> {t('LandingHeroPage.when')} </p>
               <button className="register">
-                <a href="https://forms.gle/dfeYXZynyXGFFpic9" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
+                <a href="" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
               </button>
           </Col>
           <Col sm={{ order: 'first' }} md={{ order: 'last' }} className="neural-net-image"/>
@@ -54,7 +54,7 @@ const LandingHeroPage: React.FC = () => {
           <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
           <p className="subtitle"> {t('LandingHeroPage.when')} </p>
           <button className="register">
-            <a href="https://forms.gle/dfeYXZynyXGFFpic9" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
+            <a href="" target="_blank" rel="noopener noreferrer">  {t('LandingHeroPage.register')}  </a>
           </button>
         </div>
         <Link className="a scroll-down" to="about" smooth={true} duration={1000} />
