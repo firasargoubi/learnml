@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "codeml-cd822"
+    "default": "codeml-cd822",
+    "prod": "codeml-cd822"
   },
   "targets": {}
 }
