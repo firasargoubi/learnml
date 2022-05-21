@@ -1,34 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3d816a8.chunk.css",
-    "main.js": "/static/js/main.70398895.chunk.js",
-    "main.js.map": "/static/js/main.70398895.chunk.js.map",
+    "main.css": "/static/css/main.2591e150.chunk.css",
+    "main.js": "/static/js/main.6e670966.chunk.js",
+    "main.js.map": "/static/js/main.6e670966.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.34a6e368.js",
     "runtime-main.js.map": "/static/js/runtime-main.34a6e368.js.map",
     "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
-    "static/js/2.62c8b6db.chunk.js": "/static/js/2.62c8b6db.chunk.js",
-    "static/js/2.62c8b6db.chunk.js.map": "/static/js/2.62c8b6db.chunk.js.map",
+    "static/js/2.827d4297.chunk.js": "/static/js/2.827d4297.chunk.js",
+    "static/js/2.827d4297.chunk.js.map": "/static/js/2.827d4297.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.d3d816a8.chunk.css.map": "/static/css/main.d3d816a8.chunk.css.map",
-    "static/js/2.62c8b6db.chunk.js.LICENSE.txt": "/static/js/2.62c8b6db.chunk.js.LICENSE.txt",
+    "static/css/main.2591e150.chunk.css.map": "/static/css/main.2591e150.chunk.css.map",
+    "static/js/2.827d4297.chunk.js.LICENSE.txt": "/static/js/2.827d4297.chunk.js.LICENSE.txt",
+    "static/media/Fabrice_Charbonneau.38cc0afb.jpg": "/static/media/Fabrice_Charbonneau.38cc0afb.jpg",
+    "static/media/Jeremy_Pinto.e8d7996e.jpg": "/static/media/Jeremy_Pinto.e8d7996e.jpg",
     "static/media/Polytechnique_logo.0b6b9a75.png": "/static/media/Polytechnique_logo.0b6b9a75.png",
     "static/media/landing-hero-page.scss": "/static/media/backgroundImg.ea60373b.png",
     "static/media/bnc_blanc.4f8872f8.png": "/static/media/bnc_blanc.4f8872f8.png",
     "static/media/bottomleft-icon.e2b5200e.png": "/static/media/bottomleft-icon.e2b5200e.png",
     "static/media/bottomright-icon.28e52efd.png": "/static/media/bottomright-icon.28e52efd.png",
     "static/media/about.scss": "/static/media/brainImage.3bd1c289.png",
-    "static/media/intactlab.6519a8c8.png": "/static/media/intactlab.6519a8c8.png",
+    "static/media/intactlab.38dcad17.png": "/static/media/intactlab.38dcad17.png",
     "static/media/logo_polyai.dc357169.png": "/static/media/logo_polyai.dc357169.png",
-    "static/media/logo_polyai_blanc.271100d7.svg": "/static/media/logo_polyai_blanc.271100d7.svg",
+    "static/media/logo_polyai_blanc.b11bdbfb.svg": "/static/media/logo_polyai_blanc.b11bdbfb.svg",
     "static/media/topleft-icon.2a9f5e25.png": "/static/media/topleft-icon.2a9f5e25.png",
     "static/media/topright-icon.c0826e6d.png": "/static/media/topright-icon.c0826e6d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.34a6e368.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.62c8b6db.chunk.js",
-    "static/css/main.d3d816a8.chunk.css",
-    "static/js/main.70398895.chunk.js"
+    "static/js/2.827d4297.chunk.js",
+    "static/css/main.2591e150.chunk.css",
+    "static/js/main.6e670966.chunk.js"
   ]
 }
