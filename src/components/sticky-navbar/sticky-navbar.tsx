@@ -115,14 +115,9 @@ const StickyNavBar: FunctionComponent = () => {
               </Link>
             </li>
             <li>
-              <Link
-                className='a'
-                to=''
-                smooth={true}
-                duration={DURATION}
-              >
+              <a className='a' href={t('App.sponsorus.link')}>
                 {t('App.sponsorus')}
-              </Link>
+              </a>
             </li>
             <li>
               <Link className='a' to='' smooth={true} onClick={toggleLanguage}>
