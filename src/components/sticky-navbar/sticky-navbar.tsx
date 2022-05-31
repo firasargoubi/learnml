@@ -115,6 +115,16 @@ const StickyNavBar: FunctionComponent = () => {
               </Link>
             </li>
             <li>
+              <Link
+                className='a'
+                to=''
+                smooth={true}
+                duration={DURATION}
+              >
+                {t('App.sponsorus')}
+              </Link>
+            </li>
+            <li>
               <Link className='a' to='' smooth={true} onClick={toggleLanguage}>
                 {i18n.language === 'fr' ? 'EN' : 'FR'}
               </Link>
