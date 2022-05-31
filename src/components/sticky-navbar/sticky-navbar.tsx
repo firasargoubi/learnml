@@ -117,9 +117,12 @@ const StickyNavBar: FunctionComponent = () => {
             <li>
               <Link
                 className='a'
-                to=''
+                to='/download/planCommandite_CodeML.pdf'
+                target="_blank"
+                href='../../../public/download/planCommandite_CodeML.pdf'
                 smooth={true}
                 duration={DURATION}
+                download
               >
                 {t('App.sponsorus')}
               </Link>
