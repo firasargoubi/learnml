@@ -2,7 +2,6 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import React, { FunctionComponent, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import scroll, { Link } from 'react-scroll';
-// import {Link as L} from 'react-router';
 import logo from '../../images/logo_polyai.png';
 import logo_semla from '../sponsors/img/semla_logo.png';
 import './sticky-navbar.scss';
@@ -37,7 +36,6 @@ const StickyNavBar: FunctionComponent = () => {
     // unmount component "clean up" function
     return () => window.removeEventListener('scroll', handleScroll);
   });
-
 
   return (
     <div className='App'>
@@ -117,15 +115,9 @@ const StickyNavBar: FunctionComponent = () => {
               </Link>
             </li>
             <li>
-              <Link
-                className='a'
-                to='https://drive.google.com/file/d/1EC-2Ow1bf01a_dcPeLAR0LWioQh7ZRHY/view'
-                // href='https://drive.google.com/file/d/1EC-2Ow1bf01a_dcPeLAR0LWioQh7ZRHY/view'
-                smooth={true}
-                duration={DURATION}
-              >
+              <a className='a' href={t('App.sponsorus.link')}>
                 {t('App.sponsorus')}
-              </Link>
+              </a>
             </li>
             <li>
               <Link className='a' to='' smooth={true} onClick={toggleLanguage}>
