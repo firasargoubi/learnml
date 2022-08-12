@@ -1,8 +1,13 @@
-import BNC from './img/bnc_blanc.png';
 import POLY from './img/Polytechnique_logo.png';
-import TECHNATION from './img/technation.png';
-import INTACT from './img/intactlab.png';
 import SEMLA_LOGO from './img/semla_logo.png';
+import CGI from './img/CGI.svg';
+import GIRO from './img/giro-logo.svg';
+import DRUIDE from './img/druide.png';
+import AECSP from './img/AECSP.svg';
+import DIGITAL_OCEAN from './img/DO_White.png';
+import GURU from './img/guru.png';
+import POLYHX from './img/polyhx.png';
+import SE4AI from './img/se4ai.svg';
 
 export interface Sponsor {
   name: string;
@@ -14,29 +19,37 @@ export const PLATINUM: Sponsor[] = [
   {
     name: 'SEMLA',
     imgPath: SEMLA_LOGO,
+    website: 'https://semla.quebec/en/',
   },
 ];
 
 export const GOLD: Sponsor[] = [
   {
-    name: 'Technation',
-    imgPath: TECHNATION,
-    website: 'https://technationcanada.ca/en/',
-  },
-  {
-    name: 'Intact',
-    imgPath: INTACT,
-    website: 'https://intactlab.ca/',
+    name: 'CGI',
+    imgPath: CGI,
+    website: 'https://www.cgi.com/en',
   },
 ];
 
-export const SILVER: Sponsor[] = [];
+export const SILVER: Sponsor[] = [
+  {
+    name: 'Giro',
+    imgPath: GIRO,
+    website: 'https://www.giro.ca/en-ca/',
+  },
+  {
+    name: 'Digital Ocean',
+    imgPath: DIGITAL_OCEAN,
+    website: 'https://www.digitalocean.com/',
+  },
+];
 
 export const BRONZE: Sponsor[] = [
-  {
-    name: 'Banque Nationale',
-    imgPath: BNC,
-  },
+  { name: 'Druide', imgPath: DRUIDE, website: 'https://www.druide.com/en/' },
+  { name: 'AECSP', imgPath: AECSP, website: 'https://aecsp.qc.ca/' },
+  { name: 'Guru', imgPath: GURU, website: 'https://www.guruenergy.com/en-ca' },
+  { name: 'PolyHx', imgPath: POLYHX, website: 'https://polyhx.io/#/fr' },
+  { name: 'SE4AI', imgPath: SE4AI, website: 'https://se4ai.org/' },
   {
     name: 'Polytechnique Montreal',
     imgPath: POLY,
