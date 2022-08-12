@@ -1,7 +1,4 @@
-import BNC from './img/bnc_blanc.png';
 import POLY from './img/Polytechnique_logo.png';
-import TECHNATION from './img/technation.png';
-import INTACT from './img/intactlab.png';
 import SEMLA_LOGO from './img/semla_logo.png';
 import CGI from './img/CGI.svg';
 import GIRO from './img/giro-logo.svg';
@@ -27,16 +24,6 @@ export const PLATINUM: Sponsor[] = [
 ];
 
 export const GOLD: Sponsor[] = [
-  {
-    name: 'Technation',
-    imgPath: TECHNATION,
-    website: 'https://technationcanada.ca/en/',
-  },
-  {
-    name: 'Intact',
-    imgPath: INTACT,
-    website: 'https://intactlab.ca/',
-  },
   {
     name: 'CGI',
     imgPath: CGI,
