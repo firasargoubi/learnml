@@ -8,6 +8,8 @@ import DIGITAL_OCEAN from './img/DO_White.png';
 import GURU from './img/guru.png';
 import POLYHX from './img/polyhx.png';
 import SE4AI from './img/se4ai.svg';
+import IVADO from './img/ivado.png';
+import DESJARDINS from './img/desjardins.png';
 
 export interface Sponsor {
   name: string;
@@ -29,9 +31,19 @@ export const GOLD: Sponsor[] = [
     imgPath: CGI,
     website: 'https://www.cgi.com/en',
   },
+  {
+    name: 'Desjardins',
+    imgPath: DESJARDINS,
+    website: 'https://www.desjardins.com/index.jsp',
+  },
 ];
 
 export const SILVER: Sponsor[] = [
+  {
+    name: 'IVADO',
+    imgPath: IVADO,
+    website: 'https://ivado.ca/en/',
+  },
   {
     name: 'Giro',
     imgPath: GIRO,

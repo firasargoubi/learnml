@@ -66,5 +66,28 @@
   "Schedule.warning": "All times are in EST.",
   "Partners.sponsor": "Sponsor Us",
   "Footer.newsletter": "Sign up to our newsletter!",
-  "Footer.flaticon": "Flaticon icon authors"
+  "Footer.flaticon": "Flaticon icon authors",
+  "Ressources.text": "If you want to start learning how to use Python and create machine learning models, here are some resources to help you get started!",
+  "Ressources.links": [
+    {
+      "link": "https://www.ibm.com/cloud/learn/machine-learning",
+      "helperText": "machine learning"
+    },
+    {
+      "link": "https://github.com/ia-z/ia-z",
+      "helperText": "full course on data science in french"
+    },
+    {
+      "link": "https://www.explorium.ai/wiki/supervised-learning/ ",
+      "helperText": "intro to Supervised learning"
+    },
+    {
+      "link": "https://towardsdatascience.com/ai-explainability-requires-robustness-2028ac200e9a",
+      "helperText": "robustness and explainability"
+    },
+    {
+      "link": "https://en.wikipedia.org/wiki/Fairness_(machine_learning)",
+      "helperText": "fairness in machine learning"
+    }
+  ]
 }

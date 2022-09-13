@@ -8,6 +8,7 @@ import Schedule from '../schedule/schedule';
 import { EVENTS } from '../schedule/schedule-data';
 import Speakers from '../speakers/speakers';
 import Partners from '../sponsors/sponsors';
+import Ressources from '../Ressources/ressources';
 import StickyNavBar from '../sticky-navbar/sticky-navbar';
 import './app.scss';
 
@@ -16,9 +17,11 @@ const App: FunctionComponent = () => (
     <StickyNavBar />
     <LandingHeroPage />
     <About />
+    <Ressources />
     <Speakers />
     <Faq questionAnswers={QUESTION_ANSWERS} />
     {/* <Schedule events={EVENTS} /> */}
+
     <Partners />
     <Footer />
   </div>

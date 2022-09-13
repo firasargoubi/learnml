@@ -1,0 +1,25 @@
+.ressources {
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #000022;
+  font-size: 1.5vw;
+}
+
+.ressources-text {
+  color: white;
+  font-family: Segoe UI;
+  padding: 2%;
+  align-items: center;
+}
+
+ul {
+  list-style-type: square;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .ressources {
+    font-size: 3.5vw;
+  }
+}
