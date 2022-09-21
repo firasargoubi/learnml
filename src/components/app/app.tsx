@@ -18,11 +18,11 @@ const App: FunctionComponent = () => (
     <LandingHeroPage />
     <About />
     <Ressources />
+    <Schedule events={EVENTS} />
     <Speakers />
     <Faq questionAnswers={QUESTION_ANSWERS} />
-    {/* <Schedule events={EVENTS} /> */}
-
     <Partners />
+
     <Footer />
   </div>
 );

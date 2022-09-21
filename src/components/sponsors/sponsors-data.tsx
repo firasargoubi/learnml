@@ -10,6 +10,7 @@ import POLYHX from './img/polyhx.png';
 import SE4AI from './img/se4ai.svg';
 import IVADO from './img/ivado.png';
 import DESJARDINS from './img/desjardins.png';
+import INTACT_LAB from './img/intactlab.png';
 
 export interface Sponsor {
   name: string;
@@ -35,6 +36,11 @@ export const GOLD: Sponsor[] = [
     name: 'Desjardins',
     imgPath: DESJARDINS,
     website: 'https://www.desjardins.com/index.jsp',
+  },
+  {
+    name: 'Intact Lab',
+    imgPath: INTACT_LAB,
+    website: 'https://intactlab.ca/',
   },
 ];
 
