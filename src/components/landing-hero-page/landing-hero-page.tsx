@@ -53,11 +53,7 @@ const LandingHeroPage: React.FC = () => {
             </h1>
             <p className='subtitle'>{t('LandingHeroPage.subtitle')}</p>
             <p className='subtitle'> {t('LandingHeroPage.when')} </p>
-            <a
-              href='https://docs.google.com/forms/d/e/1FAIpQLSd5kurd7qe4_XhSdkrvRPuor5J2RiE1ERFX3MwDV9pTpeTpQg/viewform?usp=sf_link'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
+            <a href='' target='_blank' rel='noopener noreferrer'>
               <button className='register'>
                 {' '}
                 {t('LandingHeroPage.register')}{' '}
@@ -76,11 +72,7 @@ const LandingHeroPage: React.FC = () => {
           <p className='subtitle'>{t('LandingHeroPage.subtitle')}</p>
           <p className='subtitle'> {t('LandingHeroPage.when')} </p>
           <button className='register'>
-            <a
-              href='https://docs.google.com/forms/d/e/1FAIpQLSd5kurd7qe4_XhSdkrvRPuor5J2RiE1ERFX3MwDV9pTpeTpQg/viewform?usp=sf_link'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
+            <a href='' target='_blank' rel='noopener noreferrer'>
               {' '}
               {t('LandingHeroPage.register')}{' '}
             </a>

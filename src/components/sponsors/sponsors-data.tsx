@@ -12,6 +12,7 @@ import IVADO from './img/ivado.png';
 import DESJARDINS from './img/desjardins.png';
 import INTACT_LAB from './img/intactlab.png';
 import BNC from './img/bnc.png';
+import RCGT from './img/rcgt.png';
 
 export interface Sponsor {
   name: string;
@@ -67,9 +68,14 @@ export const BRONZE: Sponsor[] = [
   {
     name: 'Banque National',
     imgPath: BNC,
-    website: 'https://www.druide.com/en/',
+    website: 'https://www.bnc.ca/',
   },
-  { name: 'Druide', imgPath: DRUIDE, website: 'https://www.bnc.ca/' },
+  { name: 'Druide', imgPath: DRUIDE, website: 'https://www.druide.com/en/' },
+  {
+    name: 'Raymond Chabot Grant Thornton',
+    imgPath: RCGT,
+    website: 'https://www.rcgt.com/en/',
+  },
   { name: 'AECSP', imgPath: AECSP, website: 'https://aecsp.qc.ca/' },
   { name: 'Guru', imgPath: GURU, website: 'https://www.guruenergy.com/en-ca' },
   { name: 'PolyHx', imgPath: POLYHX, website: 'https://polyhx.io/#/fr' },
