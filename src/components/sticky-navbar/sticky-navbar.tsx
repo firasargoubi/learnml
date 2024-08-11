@@ -2,7 +2,7 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import React, { FunctionComponent, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import scroll, { Link } from 'react-scroll';
-import logo from '../../images/logo_polyai.png';
+import logo from '../../images/logo_polyai_alternate.png';
 import logo_semla from '../sponsors/img/semla_logo.png';
 import './sticky-navbar.scss';
 
