@@ -75,7 +75,8 @@ const Speakers: FunctionComponent = () => {
     return (
         <div className="speakers">
             <ContainerHeading title={t('Speakers.title')}/>
-            <div>
+            <div>    
+                {/*                
                 <Carousel
                     ride="carousel"
                     interval={slides.length > minLength ? '2000': false}
@@ -100,8 +101,10 @@ const Speakers: FunctionComponent = () => {
                         </div>
                     }
                 </Carousel>
+                */}
+
             </div>
-            {/* <h6> {t('Speakers.emailUs')}</h6> */}
+            { <h6> {t('Speakers.emailUs')}</h6> }
         </div>
     );
 };

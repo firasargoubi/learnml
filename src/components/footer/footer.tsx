@@ -5,7 +5,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { FunctionComponent } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ReactComponent as LogoSvg } from './../../images/logo_polyai_blanc.svg';
+import { ReactComponent as LogoSvg } from './../../images/logo_polyai_alternate.svg';
 import './footer.scss';
 
 const Footer: FunctionComponent = () => {
