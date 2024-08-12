@@ -21,6 +21,15 @@ export interface Sponsor {
 }
 
 export const PLATINUM: Sponsor[] = [
+ 
+];
+
+export const GOLD: Sponsor[] = [
+  {
+    name: 'IVADO',
+    imgPath: IVADO,
+    website: 'https://ivado.ca/en/',
+  },
   {
     name: 'SEMLA',
     imgPath: SEMLA_LOGO,
@@ -28,57 +37,14 @@ export const PLATINUM: Sponsor[] = [
   },
 ];
 
-export const GOLD: Sponsor[] = [
-  {
-    name: 'CGI',
-    imgPath: CGI,
-    website: 'https://www.cgi.com/en',
-  },
-  {
-    name: 'Desjardins',
-    imgPath: DESJARDINS,
-    website: 'https://www.desjardins.com/index.jsp',
-  },
-  {
-    name: 'Intact Lab',
-    imgPath: INTACT_LAB,
-    website: 'https://intactlab.ca/',
-  },
-];
-
 export const SILVER: Sponsor[] = [
-  {
-    name: 'IVADO',
-    imgPath: IVADO,
-    website: 'https://ivado.ca/en/',
-  },
-  {
-    name: 'Giro',
-    imgPath: GIRO,
-    website: 'https://www.giro.ca/en-ca/',
-  },
-  {
-    name: 'Digital Ocean',
-    imgPath: DIGITAL_OCEAN,
-    website: 'https://www.digitalocean.com/',
-  },
+  
 ];
 
 export const BRONZE: Sponsor[] = [
-  {
-    name: 'Banque National',
-    imgPath: BNC,
-    website: 'https://www.bnc.ca/',
-  },
   { name: 'Druide', imgPath: DRUIDE, website: 'https://www.druide.com/en/' },
-  {
-    name: 'Raymond Chabot Grant Thornton',
-    imgPath: RCGT,
-    website: 'https://www.rcgt.com/en/',
-  },
   { name: 'AECSP', imgPath: AECSP, website: 'https://aecsp.qc.ca/' },
   { name: 'Guru', imgPath: GURU, website: 'https://www.guruenergy.com/en-ca' },
-  { name: 'PolyHx', imgPath: POLYHX, website: 'https://polyhx.io/#/fr' },
   { name: 'SE4AI', imgPath: SE4AI, website: 'https://se4ai.org/' },
   {
     name: 'Polytechnique Montreal',
