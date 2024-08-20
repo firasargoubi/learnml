@@ -1,18 +1,14 @@
-import POLY from './img/Polytechnique_logo.png';
-import SEMLA_LOGO from './img/semla_logo.png';
-import CGI from './img/CGI.svg';
-import GIRO from './img/giro-logo.svg';
-import DRUIDE from './img/druide.png';
-import AECSP from './img/AECSP.svg';
-import DIGITAL_OCEAN from './img/DO_White.png';
-import GURU from './img/guru.png';
-import POLYHX from './img/polyhx.png';
-import SE4AI from './img/se4ai.svg';
-import IVADO from './img/ivado.png';
-import DESJARDINS from './img/desjardins.png';
-import INTACT_LAB from './img/intactlab.png';
-import BNC from './img/bnc.png';
-import RCGT from './img/rcgt.png';
+import POLY from "./img/Polytechnique_logo.png";
+import SEMLA_LOGO from "./img/semla_logo.png";
+import DRUIDE from "./img/druide.png";
+import AECSP from "./img/AECSP.svg";
+import GURU from "./img/guru.png";
+import IVADO from "./img/ivado.png";
+import CN from "./img/CN.png";
+import ERICSON from "./img/ericson.png";
+import STINGRAY from "./img/stingray.png";
+import TD from "./img/td_logo.jpg";
+import COVEO from "./img/coveo.png";
 
 export interface Sponsor {
   name: string;
@@ -20,68 +16,66 @@ export interface Sponsor {
   website?: string;
 }
 
-export const PLATINUM: Sponsor[] = [
-  {
-    name: 'SEMLA',
-    imgPath: SEMLA_LOGO,
-    website: 'https://semla.quebec/en/',
-  },
-];
+export const PLATINUM: Sponsor[] = [];
 
 export const GOLD: Sponsor[] = [
+
   {
-    name: 'CGI',
-    imgPath: CGI,
-    website: 'https://www.cgi.com/en',
+    name: "IVADO",
+    imgPath: IVADO,
+    website: "https://ivado.ca/en/",
   },
   {
-    name: 'Desjardins',
-    imgPath: DESJARDINS,
-    website: 'https://www.desjardins.com/index.jsp',
+    name: "CN",
+    imgPath: CN,
+    website: "https://www.cn.ca/en/",
   },
   {
-    name: 'Intact Lab',
-    imgPath: INTACT_LAB,
-    website: 'https://intactlab.ca/',
+    name: "SEMLA",
+    imgPath: SEMLA_LOGO,
+    website: "https://semla.quebec/en/",
   },
+  {
+    name: "ERICSON",
+    imgPath: ERICSON,
+    website: " https://www.ericsson.com/en/newsroom/media-kits",
+  },
+ 
 ];
 
 export const SILVER: Sponsor[] = [
   {
-    name: 'IVADO',
-    imgPath: IVADO,
-    website: 'https://ivado.ca/en/',
-  },
-  {
-    name: 'Giro',
-    imgPath: GIRO,
-    website: 'https://www.giro.ca/en-ca/',
-  },
-  {
-    name: 'Digital Ocean',
-    imgPath: DIGITAL_OCEAN,
-    website: 'https://www.digitalocean.com/',
+    name: "COVEO",
+    imgPath: COVEO,
+    website: "https://www.coveo.com/en",
   },
 ];
 
 export const BRONZE: Sponsor[] = [
-  {
-    name: 'Banque National',
-    imgPath: BNC,
-    website: 'https://www.bnc.ca/',
+  { 
+    name: "Druide", 
+    imgPath: DRUIDE, 
+    website: "https://www.druide.com/en/" 
   },
-  { name: 'Druide', imgPath: DRUIDE, website: 'https://www.druide.com/en/' },
+  { 
+    name: "AECSP", 
+    imgPath: AECSP,
+     website: "https://aecsp.qc.ca/" 
+    },
+  { name: "Guru", imgPath: GURU, website: "https://www.guruenergy.com/en-ca" },
   {
-    name: 'Raymond Chabot Grant Thornton',
-    imgPath: RCGT,
-    website: 'https://www.rcgt.com/en/',
+    name: "Stingray",
+    imgPath: STINGRAY,
+    website: "  https://corporate.stingray.com/media-center/",
   },
-  { name: 'AECSP', imgPath: AECSP, website: 'https://aecsp.qc.ca/' },
-  { name: 'Guru', imgPath: GURU, website: 'https://www.guruenergy.com/en-ca' },
-  { name: 'PolyHx', imgPath: POLYHX, website: 'https://polyhx.io/#/fr' },
-  { name: 'SE4AI', imgPath: SE4AI, website: 'https://se4ai.org/' },
   {
-    name: 'Polytechnique Montreal',
+    name: "Teledyne Dalsa",
+    imgPath: TD,
+    website: "https://www.teledynedalsa.com/en/home/",
+  },
+  {
+    name: "Polytechnique Montreal",
     imgPath: POLY,
+    website: "https://www.polymtl.ca/"
   },
 ];
