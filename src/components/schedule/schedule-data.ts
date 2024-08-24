@@ -1,4 +1,3 @@
-import i18n from '../../i18n';
 import { Event } from './event-interface';
 
 export const EVENTS: Event[][] = [

@@ -41,46 +41,42 @@ const LandingHeroPage: React.FC = () => {
             : 'landing-hero-page bg-color-hack'
         }
       >
-        <Row sm='1' md='2' className='content'>
+        <Row sm="1" md="2" className="content">
           <Col
             sm={{ order: 'last' }}
             md={{ order: 'first' }}
-            className='text-container'
+            className="text-container"
           >
-            <h1 className='title'>
+            <h1 className="title">
               {t('LandingHeroPage.firstTitle')} :{' '}
               {t('LandingHeroPage.secondTitle')}
             </h1>
-            <p className='subtitle'>{t('LandingHeroPage.subtitle')}</p>
-            <p className='subtitle'> {t('LandingHeroPage.when')} </p>
-            <a href='' target='_blank' rel='noopener noreferrer'>
-              <button className='register'>
+            <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
+            <p className="subtitle"> {t('LandingHeroPage.when')} </p>
+              <button className="register">
                 {' '}
                 {t('LandingHeroPage.register')}{' '}
               </button>
-            </a>
           </Col>
           <Col
             sm={{ order: 'first' }}
             md={{ order: 'last' }}
-            className='neural-net-image'
+            className="neural-net-image"
           />
         </Row>
-        <div className='mobile-content'>
-          <h1 className='title'>{t('LandingHeroPage.firstTitle')}</h1>
-          <h1 className='title'>{t('LandingHeroPage.secondTitle')}</h1>
-          <p className='subtitle'>{t('LandingHeroPage.subtitle')}</p>
-          <p className='subtitle'> {t('LandingHeroPage.when')} </p>
-          <button className='register'>
-            <a href='' target='_blank' rel='noopener noreferrer'>
+        <div className="mobile-content">
+          <h1 className="title">{t('LandingHeroPage.firstTitle')}</h1>
+          <h1 className="title">{t('LandingHeroPage.secondTitle')}</h1>
+          <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
+          <p className="subtitle"> {t('LandingHeroPage.when')} </p>
+          <button className="register">
               {' '}
               {t('LandingHeroPage.register')}{' '}
-            </a>
           </button>
         </div>
         <Link
-          className='a scroll-down'
-          to='about'
+          className="a scroll-down"
+          to="about"
           smooth={true}
           duration={1000}
         />
@@ -88,9 +84,9 @@ const LandingHeroPage: React.FC = () => {
 
       {showParticles && (
         <ParticlesBg
-          color='#04cfda'
+          color="#04cfda"
           num={ratio}
-          type='cobweb'
+          type="cobweb"
           bg={showParticles}
         />
       )}

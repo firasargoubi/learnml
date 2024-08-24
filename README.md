@@ -19,20 +19,21 @@ Il faut que vous installiez tout ça sur votre ordinateur avant de pouvoir comme
 - vscode: https://code.visualstudio.com/Download
 - git bash: https://git-scm.com/downloads
 - tslint (il faut vs code avant): https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
+- Ensuite vous devez installer yarn! "Bien plus rapide que NPM" src: [Trust me bro](https://www.knowledgehut.com/blog/web-development/yarn-vs-npm)
 
 ## Étapes avant de démarrer le serveur pour la première fois (ou après installation de nouvelles dépendances)
 Navigez dans la racine du projet (où se situe le fichier package.json) et exécutez cette commande dans un terminal:
-`npm install`
+`yarn install`
 
 ## Partir le serveur
 Executez cette commande dans un terminal (dans le répertoire du projet):
-`npm start`
+`yarn start`
 
 une page s'ouvrira automatiquement à `http://localhost:3000/`
 
 ## Run les tests
 Exécutez la commande
-`npm test`
+`yarn test`
 pour rouler les tests!
 
 ## Convention de nommage

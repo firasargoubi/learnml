@@ -1,9 +1,8 @@
+/* eslint-disable */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { FunctionComponent, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
-    Carousel,
-    CarouselControl,
     CarouselItem,
 } from 'reactstrap';
 import { batch } from '../../utils';
@@ -58,19 +57,19 @@ const Speakers: FunctionComponent = () => {
         );
     });
 
-    const next = () => {
-        if (animating) return;
-        const nextIndex =
-            activeIndex === slides.length - 1 ? 0 : activeIndex + 1;
-        setActiveIndex(nextIndex);
-    };
+    // const next = () => {
+    //     if (animating) return;
+    //     const nextIndex =
+    //         activeIndex === slides.length - 1 ? 0 : activeIndex + 1;
+    //     setActiveIndex(nextIndex);
+    // };
 
-    const previous = () => {
-        if (animating) return;
-        const nextIndex =
-            activeIndex === 0 ? slides.length - 1 : activeIndex - 1;
-        setActiveIndex(nextIndex);
-    };
+    // const previous = () => {
+    //     if (animating) return;
+    //     const nextIndex =
+    //         activeIndex === 0 ? slides.length - 1 : activeIndex - 1;
+    //     setActiveIndex(nextIndex);
+    // };
 
     return (
         <div className="speakers">

@@ -13,7 +13,7 @@ const Card: React.FC<CardProps> = ({iconPath, text, index}) => {
 
   return (
     <div className="card-about">
-        <img id="cardIcon" src={iconPath}/>
+        <img alt="icon" id="cardIcon" src={iconPath}/>
         <div id="text-container">< p id="cardText">{t('Card['+index+'].text')}</p></div>
     </div>
   );
