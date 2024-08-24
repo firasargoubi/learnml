@@ -1,7 +1,5 @@
-import i18n from '../../i18n';
-import jeremy from './img/Jeremy_Pinto.jpg';
-import fabrice from './img/Fabrice_Charbonneau.jpg';
 import amin from './img/amin.jpg';
+import jeremy from './img/Jeremy_Pinto.jpg';
 import thomas from './img/thomas.jpg';
 import { SpeakerInfo } from './speaker/speaker-info-interface';
 

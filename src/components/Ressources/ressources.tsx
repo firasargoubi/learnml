@@ -1,7 +1,7 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import ContainerHeading from '../common/container-heading';
 import './ressources.scss';
-import { useTranslation } from 'react-i18next';
 
 type Link = {
   link: string;
@@ -14,14 +14,14 @@ const Ressources = () => {
     returnObjects: true,
   });
   return (
-    <div className='ressources'>
-      <ContainerHeading title='Ressources' />
+    <div className="ressources">
+      <ContainerHeading title="Ressources" />
       <div>
-        <p className='ressources-text'>{t('Ressources.text')}</p>
+        <p className="ressources-text">{t('Ressources.text')}</p>
         <ul>
           {ressourcesLinks.map((item, index) => (
             <li key={index}>
-              <p className='ressources-text'>
+              <p className="ressources-text">
                 {' '}
                 <a href={item.link}>{item.link}</a> ({item.helperText})
               </p>

@@ -38,35 +38,35 @@ const StickyNavBar: FunctionComponent = () => {
   });
 
   return (
-    <div className='App'>
+    <div className="App">
       <nav className={scrolled ? 'nav-container scroll' : 'nav-container'}>
         <div
-          className='nav-row'
+          className="nav-row"
           style={{ whiteSpace: 'nowrap', display: 'inline' }}
         >
           <div
-            className='margin-left-image align-center'
+            className="margin-left-image align-center"
             style={{ whiteSpace: 'nowrap', display: 'inline-flex' }}
           >
             <img
-              className='nav-logo'
+              className="nav-logo"
               src={logo}
-              alt='logo polyai'
+              alt="logo polyai"
               onClick={() => window.open('https://polyai.ca/', '_blank')}
             />
-            <p className='text-image'>X</p>
+            <p className="text-image">X</p>
             <img
-              className='nav-logo'
+              className="nav-logo"
               src={logo_semla}
-              alt='logo semla'
+              alt="logo semla"
               onClick={() => window.open('https://semla.quebec/en/', '_blank')}
             />
           </div>
           <ul className={showNav ? 'main-nav show' : 'main-nav'}>
             <li>
               <Link
-                className='a'
-                to=''
+                className="a"
+                to=""
                 onClick={scroll.animateScroll.scrollToTop}
                 smooth={true}
                 duration={DURATION}
@@ -75,14 +75,14 @@ const StickyNavBar: FunctionComponent = () => {
               </Link>
             </li>
             <li>
-              <Link className='a' to='about' smooth={true} duration={DURATION}>
+              <Link className="a" to="about" smooth={true} duration={DURATION}>
                 {t('App.about')}
               </Link>
             </li>
             <li>
               <Link
-                className='a'
-                to='speakers'
+                className="a"
+                to="speakers"
                 smooth={true}
                 duration={DURATION}
               >
@@ -90,14 +90,14 @@ const StickyNavBar: FunctionComponent = () => {
               </Link>
             </li>
             <li>
-              <Link className='a' to='faq' smooth={true} duration={DURATION}>
+              <Link className="a" to="faq" smooth={true} duration={DURATION}>
                 {t('App.faq')}
               </Link>
             </li>
             <li>
               <Link
-                className='a'
-                to='schedule'
+                className="a"
+                to="schedule"
                 smooth={true}
                 duration={DURATION}
               >
@@ -106,8 +106,8 @@ const StickyNavBar: FunctionComponent = () => {
             </li>
             <li>
               <Link
-                className='a'
-                to='partners'
+                className="a"
+                to="partners"
                 smooth={true}
                 duration={DURATION}
               >
@@ -115,19 +115,19 @@ const StickyNavBar: FunctionComponent = () => {
               </Link>
             </li>
             <li>
-              <a className='a' href={t('App.sponsorus.link')}>
+              <a className="a" href={t('App.sponsorus.link')}>
                 {t('App.sponsorus')}
               </a>
             </li>
             <li>
-              <Link className='a' to='' smooth={true} onClick={toggleLanguage}>
+              <Link className="a" to="" smooth={true} onClick={toggleLanguage}>
                 {i18n.language === 'fr' ? 'EN' : 'FR'}
               </Link>
             </li>
           </ul>
           <FontAwesomeIcon
             onClick={toggleNav}
-            className='mobile-nav-icon'
+            className="mobile-nav-icon"
             icon={showNav ? faTimes : faBars}
           />
         </div>

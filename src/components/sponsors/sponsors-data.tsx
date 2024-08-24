@@ -1,14 +1,14 @@
-import POLY from "./img/Polytechnique_logo.png";
-import SEMLA_LOGO from "./img/semla_logo.png";
-import DRUIDE from "./img/druide.png";
-import AECSP from "./img/AECSP.svg";
-import GURU from "./img/guru.png";
-import IVADO from "./img/ivado.png";
-import CN from "./img/CN.png";
-import ERICSON from "./img/ericson.png";
-import STINGRAY from "./img/stingray.png";
-import TD from "./img/td_logo.jpg";
-import COVEO from "./img/coveo.png";
+import AECSP from './img/AECSP.svg';
+import CN from './img/CN.png';
+import COVEO from './img/coveo.png';
+import DRUIDE from './img/druide.png';
+import ERICSON from './img/ericson.png';
+import GURU from './img/guru.png';
+import IVADO from './img/ivado.png';
+import POLY from './img/Polytechnique_logo.png';
+import SEMLA_LOGO from './img/semla_logo.png';
+import STINGRAY from './img/stingray.png';
+import TD from './img/td_logo.jpg';
 
 export interface Sponsor {
   name: string;
@@ -21,61 +21,61 @@ export const PLATINUM: Sponsor[] = [];
 export const GOLD: Sponsor[] = [
 
   {
-    name: "IVADO",
+    name: 'IVADO',
     imgPath: IVADO,
-    website: "https://ivado.ca/en/",
+    website: 'https://ivado.ca/en/',
   },
   {
-    name: "CN",
+    name: 'CN',
     imgPath: CN,
-    website: "https://www.cn.ca/en/",
+    website: 'https://www.cn.ca/en/',
   },
   {
-    name: "SEMLA",
+    name: 'SEMLA',
     imgPath: SEMLA_LOGO,
-    website: "https://semla.quebec/en/",
+    website: 'https://semla.quebec/en/',
   },
   {
-    name: "ERICSON",
+    name: 'ERICSON',
     imgPath: ERICSON,
-    website: " https://www.ericsson.com/en/newsroom/media-kits",
+    website: ' https://www.ericsson.com/en/newsroom/media-kits',
   },
  
 ];
 
 export const SILVER: Sponsor[] = [
   {
-    name: "COVEO",
+    name: 'COVEO',
     imgPath: COVEO,
-    website: "https://www.coveo.com/en",
+    website: 'https://www.coveo.com/en',
   },
 ];
 
 export const BRONZE: Sponsor[] = [
   { 
-    name: "Druide", 
+    name: 'Druide', 
     imgPath: DRUIDE, 
-    website: "https://www.druide.com/en/" 
+    website: 'https://www.druide.com/en/', 
   },
   { 
-    name: "AECSP", 
+    name: 'AECSP', 
     imgPath: AECSP,
-     website: "https://aecsp.qc.ca/" 
+     website: 'https://aecsp.qc.ca/', 
     },
-  { name: "Guru", imgPath: GURU, website: "https://www.guruenergy.com/en-ca" },
+  { name: 'Guru', imgPath: GURU, website: 'https://www.guruenergy.com/en-ca' },
   {
-    name: "Stingray",
+    name: 'Stingray',
     imgPath: STINGRAY,
-    website: "  https://corporate.stingray.com/media-center/",
+    website: '  https://corporate.stingray.com/media-center/',
   },
   {
-    name: "Teledyne Dalsa",
+    name: 'Teledyne Dalsa',
     imgPath: TD,
-    website: "https://www.teledynedalsa.com/en/home/",
+    website: 'https://www.teledynedalsa.com/en/home/',
   },
   {
-    name: "Polytechnique Montreal",
+    name: 'Polytechnique Montreal',
     imgPath: POLY,
-    website: "https://www.polymtl.ca/"
+    website: 'https://www.polymtl.ca/',
   },
 ];
