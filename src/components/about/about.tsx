@@ -10,18 +10,18 @@ const About: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='about'>
+    <div className="about">
       <ContainerHeading title={t('About.title')} />
-      <Row xs='1' s='1' md='2' lg='2'>
-        <Col className='about-description-container'>
-          <p className='about-text'>{t('About.about')}</p>
-          <p className='about-text'>{t('About.semla')}</p>
+      <Row xs="1" s="1" md="2" lg="2">
+        <Col className="about-description-container">
+          <p className="about-text">{t('About.about')}</p>
+          <p className="about-text">{t('About.semla')}</p>
         </Col>
-        <Col xs='0'>
-          <div className='brain-image' />
+        <Col xs="0">
+          <div className="brain-image" />
         </Col>
       </Row>
-      <Row xs='1' s='1' md='2' lg='2'>
+      <Row xs="1" s="1" md="2" lg="2">
         {DATA.map((cardData: CardData, index: number) => {
           return (
             <Col key={index}>

@@ -2,12 +2,13 @@
 .faq {
     width: 100%;
     background: $primary;
+    padding: 5%;
+
     select {
         height: 3em;
         margin-bottom: 2.5em;
         border: none;
     }
-    padding: 5%;
     // padding-top: 0;
     .faq-col-padding {
         padding-bottom: 20px;

@@ -11,54 +11,54 @@ import './footer.scss';
 const Footer: FunctionComponent = () => {
   const { t } = useTranslation();
   return (
-    <div className='footer-wrapper'>
-      <div className='copyright'>© {new Date().getFullYear()} POLYAI</div>
+    <div className="footer-wrapper">
+      <div className="copyright">© {new Date().getFullYear()} POLYAI</div>
 
       <div>
-        <a href='https://poly-ai.io/' target='_blank' rel='noopener noreferrer'>
+        <a href="https://poly-ai.io/" target="_blank" rel="noopener noreferrer">
           <LogoSvg />
         </a>
       </div>
 
-      <div className='social-media'>
+      <div className="social-media">
         <a
-          href='https://www.facebook.com/branchPolyAi/'
-          target='_blank'
-          rel='noopener noreferrer'
+          href="https://www.facebook.com/branchPolyAi/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon
             icon={faFacebookSquare}
-            size='lg'
-            className='facebook-icon'
+            size="lg"
+            className="facebook-icon"
           />
         </a>
         <a
-          href='https://www.linkedin.com/company/poly-ai/'
-          target='_blank'
-          rel='noopener noreferrer'
+          href="https://www.linkedin.com/company/poly-ai/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon
             icon={faLinkedin}
-            size='lg'
-            className='linkedin-icon'
+            size="lg"
+            className="linkedin-icon"
           />
         </a>
       </div>
 
-      <div className='footer-newsletter'>
+      <div className="footer-newsletter">
         <a
-          href='http://eepurl.com/hc0eUD'
-          target='_blank'
-          rel='noopener noreferrer'
+          href="http://eepurl.com/hc0eUD"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {t('Footer.newsletter')}
         </a>
       </div>
-      <div className='footer-flaticon'>
+      <div className="footer-flaticon">
         <a
-          href='https://www.notion.so/Flaticon-icons-authors-e4fe0950699c42c9949ab98c6ce6f468'
-          target='_blank'
-          rel='noopener noreferrer'
+          href="https://www.notion.so/Flaticon-icons-authors-e4fe0950699c42c9949ab98c6ce6f468"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {t('Footer.flaticon')}
         </a>

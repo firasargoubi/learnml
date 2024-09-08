@@ -4,16 +4,16 @@ import { QUESTION_ANSWERS } from '../faq/data';
 import Faq from '../faq/faq';
 import Footer from '../footer/footer';
 import LandingHeroPage from '../landing-hero-page/landing-hero-page';
+import Ressources from '../Ressources/ressources';
 import Schedule from '../schedule/schedule';
 import { EVENTS } from '../schedule/schedule-data';
 import Speakers from '../speakers/speakers';
 import Partners from '../sponsors/sponsors';
-import Ressources from '../Ressources/ressources';
 import StickyNavBar from '../sticky-navbar/sticky-navbar';
 import './app.scss';
 
 const App: FunctionComponent = () => (
-  <div className='App'>
+  <div className="App">
     <StickyNavBar />
     <LandingHeroPage />
     <About />
