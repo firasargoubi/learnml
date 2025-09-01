@@ -56,7 +56,7 @@ const LandingHeroPage: React.FC = () => {
               <button className="register">
 
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSctJZEYjx8oTROyygyeGTppd8saPMvLELxliPYXlRYYM07z-w/viewform?usp=sf_link"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSccIdaBmFBBzX9uzK0KDYIcuFZ5zlHkG7lFU6RUDhZBOBteFg/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -78,7 +78,7 @@ const LandingHeroPage: React.FC = () => {
           <p className="subtitle"> {t('LandingHeroPage.when')} </p>
           <button className="register">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSctJZEYjx8oTROyygyeGTppd8saPMvLELxliPYXlRYYM07z-w/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSccIdaBmFBBzX9uzK0KDYIcuFZ5zlHkG7lFU6RUDhZBOBteFg/viewform"
               target="_blank"
               rel="noopener noreferrer"
             >
