@@ -1,7 +1,7 @@
 @import '../../scss/variables.scss';
 .schedule {
     background-color: $primary;
-    color: white;
+    color: $text-light;
     font-family: 'Segoe UI';
     min-height: 100vh;
     padding: 5%;
@@ -17,7 +17,7 @@
         cursor: pointer;
     }
     .nav-link {
-        color: white;
+        color: $text-light;
     }
     .nav-tabs {
         margin: auto;
@@ -31,10 +31,10 @@
         }
     }
     .event {
-        border-top: 1px solid white;
+        border-top: 1px solid $text-light;
         font-size: 1.5vw;
         &:nth-child(1) {
-            border-top: 0px solid white;
+            border-top: 0px solid $text-light;
         }
     }
     .nav-item.active {

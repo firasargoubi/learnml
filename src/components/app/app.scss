@@ -1,6 +1,8 @@
+@import '../../scss/variables.scss';
+
 /* voir qui depasse la taille qu'il faut */
 
 body {
     overflow-x: hidden;
-    background-color: #000022;
+    background-color: $background-dark;
 }

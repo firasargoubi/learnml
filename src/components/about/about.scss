@@ -1,8 +1,10 @@
+@import '../../scss/variables.scss';
+
 .about {
     padding-top: 1%;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #000022;
+    background-color: $background-dark;
     font-size: 1.5vw;
 }
 
@@ -13,7 +15,7 @@
 }
 
 .about-text {
-    color: white;
+    color: $text-light;
     font-family: Segoe UI;
     padding: 5%;
 }
