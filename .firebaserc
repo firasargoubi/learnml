@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "codeml-cd822",
-    "prod": "codeml-cd822"
+    "default": "learnml-161a9",
+    "prod": "learnml-161a9"
   },
   "targets": {}
 }
