@@ -1,14 +1,14 @@
 # Processus de développement d'application Web chez PolyAI
 Bienvenue dans l'équipe!
 
-**[Staging:](https://codeml---staging.web.app/)**
+**[Staging:](https://learnml---staging.web.app/)**
 
-![Staging](https://github.com/PolyHx/website-CodeML/workflows/Deployement/badge.svg?branch=master)
+![Staging](https://github.com/PolyHx/website-LearnML/workflows/Deployement/badge.svg?branch=master)
 
-u![Prodution](https://github.com/PolyHx/PolyAI-CodeML/w)
+u![Prodution](https://github.com/PolyHx/PolyAI-LearnML/w)
 **Branche actuelle:**
 
-![TSLint and tests](https://github.com/PolyHx/website-CodeML/workflows/Lint%20and%20test/badge.svg)
+![TSLint and tests](https://github.com/PolyHx/website-LearnML/workflows/Lint%20and%20test/badge.svg)
 
 ## IDE, outils, frameworks et autres dépendances
 Il faut que vous installiez tout ça sur votre ordinateur avant de pouvoir commencer à programmer!
