@@ -54,15 +54,15 @@ const LandingHeroPage: React.FC = () => {
             <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
             <p className="subtitle"> {t('LandingHeroPage.when')} </p>
               <button className="register">
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSctJZEYjx8oTROyygyeGTppd8saPMvLELxliPYXlRYYM07z-w/viewform?usp=sf_link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {' '}
-                {t('LandingHeroPage.register')}{' '}
-      </a>
 
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSctJZEYjx8oTROyygyeGTppd8saPMvLELxliPYXlRYYM07z-w/viewform?usp=sf_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {' '}
+                  {t('LandingHeroPage.register')}{' '}
+                </a>
               </button>
           </Col>
           <Col
@@ -77,16 +77,14 @@ const LandingHeroPage: React.FC = () => {
           <p className="subtitle">{t('LandingHeroPage.subtitle')}</p>
           <p className="subtitle"> {t('LandingHeroPage.when')} </p>
           <button className="register">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSctJZEYjx8oTROyygyeGTppd8saPMvLELxliPYXlRYYM07z-w/viewform?usp=sf_link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSctJZEYjx8oTROyygyeGTppd8saPMvLELxliPYXlRYYM07z-w/viewform?usp=sf_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {' '}
               {t('LandingHeroPage.register')}{' '}
-              </a>
-
+            </a>
           </button>
         </div>
         <Link
