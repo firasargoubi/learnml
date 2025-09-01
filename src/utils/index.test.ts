@@ -2,7 +2,7 @@ import { batch, range } from '.';
 
 describe('Utility functions', () => {
     test('Range function', () => {
-        range(3);
+        expect(range(3)).toEqual([0, 1, 2]);
     });
 
     describe('batch function', () => {
