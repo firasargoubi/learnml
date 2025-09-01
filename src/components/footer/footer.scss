@@ -7,7 +7,7 @@
     align-items: center;
     justify-items: center;
     width: 100%;
-    color: white;
+    color: $text-light;
 }
 
 .social-media {
@@ -16,7 +16,7 @@
 
 .facebook-icon,
 .linkedin-icon {
-    color: white;
+    color: $text-light;
     font-size: 3vh;
 }
 
@@ -33,7 +33,7 @@
     padding-bottom: 0.5%;
     a {
         padding-right: 0;
-        color: white;
+        color: $text-light;
     }
 }
 

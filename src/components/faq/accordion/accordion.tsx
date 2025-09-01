@@ -33,7 +33,7 @@ const Accordion: React.FunctionComponent<AccordionProps> = ({title, content}) =>
     <div className="accordion__section">
       <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
         <p className="accordion__title">{title}</p>
-        <Chevron className={`${setRotate}`} width={10} fill={'#777'} />
+        <Chevron className={`${setRotate}`} width={10} fill={'var(--text-muted)'} />
       </button>
       <div
         ref={contentRef}

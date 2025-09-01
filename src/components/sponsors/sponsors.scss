@@ -2,7 +2,7 @@
     .partners-section {
         padding-top: 5rem;
         padding-bottom: 5rem;
-        background: rgb(97, 138, 147);
+        background: $degrade;
         background: linear-gradient(0deg, $degrade 0%, $primary 100%);
     }
     
@@ -27,20 +27,20 @@
         float: center;
         transition: all 0.3s ease 0s;
         padding: 1%;
-        background-color: #6d7879;
-        color: white;
+        background-color: $degrade;
+        color: $text-light;
         font-size: 1.5vw;
         border-radius: 12px;
         outline: none;
         border: none;
         width: 15%;
         a {
-            color: #fff;
+            color: $text-light;
             text-decoration: none;
         }
         &:hover {
             width: 12%;
-            background-color: #4A8FA1;
+            background-color: $highlight-light;
             transition: all 0.6s ease 0s;
             cursor: pointer;
         }

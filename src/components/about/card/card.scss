@@ -1,3 +1,5 @@
+@import '../../../scss/variables.scss';
+
 .card-about {
     width: 90%;
     padding-left: 5%;
@@ -8,13 +10,13 @@
     align-items: center;
     margin: 5% 5% 5% 5%;
     transition: 0.3s;
-    border: 1px solid rgba(63, 159, 190, 0.50);
+    border: 1px solid rgba($secondary, 0.5);
 }
 
 .card-about:hover {
-    -webkit-box-shadow: 0px 0px 20px 6px rgba(63, 159, 190, 0.75);
-    -moz-box-shadow: 0px 0px 20px 6px rgba(63, 159, 190, 0.75);
-    box-shadow: 0px 0px 20px 6px rgba(63, 159, 190, 0.75);
+    -webkit-box-shadow: 0px 0px 20px 6px rgba($secondary, 0.75);
+    -moz-box-shadow: 0px 0px 20px 6px rgba($secondary, 0.75);
+    box-shadow: 0px 0px 20px 6px rgba($secondary, 0.75);
 }
 
 #cardIcon {
@@ -23,7 +25,7 @@
 }
 
 #cardText {
-    color: white;
+    color: $text-light;
     font-family: Segoe UI;
     font-size: 1.7vw;
 }

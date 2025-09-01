@@ -1,4 +1,4 @@
-//import AECSP from './img/AECSP.svg';
+// import AECSP from './img/AECSP.svg';
 import CN from './img/CN.png';
 import COVEO from './img/coveo.png';
 import DRUIDE from './img/druide.png';
@@ -41,8 +41,7 @@ export const GOLD: Sponsor[] = [
     website: ' https://www.ericsson.com/en/newsroom/media-kits',
   },
  
-];
-
+  ];
 export const SILVER: Sponsor[] = [
   {
     name: 'COVEO',
@@ -50,7 +49,6 @@ export const SILVER: Sponsor[] = [
     website: 'https://www.coveo.com/en',
   },
 ];
-
 export const BRONZE: Sponsor[] = [
   { 
     name: 'Druide', 
@@ -63,19 +61,19 @@ export const BRONZE: Sponsor[] = [
      website: 'https://aecsp.qc.ca/', 
     },*/
   { name: 'Guru', imgPath: GURU, website: 'https://www.guruenergy.com/en-ca' },
-  {
-    name: 'Stingray',
-    imgPath: STINGRAY,
-    website: '  https://corporate.stingray.com/media-center/',
-  },
-  {
-    name: 'Teledyne Dalsa',
-    imgPath: TD,
-    website: 'https://www.teledynedalsa.com/en/home/',
-  },
-  {
-    name: 'Polytechnique Montreal',
-    imgPath: POLY,
-    website: 'https://www.polymtl.ca/',
-  },
-];
+    {
+      name: 'Stingray',
+      imgPath: STINGRAY,
+      website: '  https://corporate.stingray.com/media-center/',
+    },
+    {
+      name: 'Teledyne Dalsa',
+      imgPath: TD,
+      website: 'https://www.teledynedalsa.com/en/home/',
+    },
+    {
+      name: 'Polytechnique Montreal',
+      imgPath: POLY,
+      website: 'https://www.polymtl.ca/',
+    },
+  ];
