@@ -48,10 +48,7 @@ canvas {
 }
 
 .neural-net-image {
-    background-image: url("../../images/backgroundImg.png");
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: 40% 50%;
+    background: transparent url('../../images/backgroundImg.png') no-repeat center / 80%;
 }
 
 .register {
