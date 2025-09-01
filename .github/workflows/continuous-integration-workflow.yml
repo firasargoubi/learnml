@@ -74,6 +74,6 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'   # for PR comments
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_POLYAI }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
           projectId: 'learnml-161a9'
           channelId: 'live'
