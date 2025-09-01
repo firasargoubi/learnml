@@ -7,11 +7,11 @@
   "App.speakers": "Speakers",
   "App.faq": "FAQ",
   "App.schedule": "Schedule",
-  "LandingHeroPage.firstTitle": "LearnML Hackathon",
+  "LandingHeroPage.firstTitle": "LearnML Program",
   "LandingHeroPage.secondTitle": "A Machine Learning Experience",
-  "LandingHeroPage.subtitle": "Come join more than 200 participants to tackle multiple ML challenges and win prizes!",
+  "LandingHeroPage.subtitle": "Weekend workshops and discussions to explore artificial intelligence.",
   "LandingHeroPage.register": "Register",
-  "LandingHeroPage.when": "October 5 - 6 • In person",
+  "LandingHeroPage.when": "September 13 - 14, 2025 • In person",
   "About.title": "About",
   "About.about": "LearnML is a unique hackathon. Spread over 48 hours, it consists of a series of challenges on machine learning of increasing difficulty. This event is the perfect opportunity for participants to familiarize themselves with different aspects of machine learning methods! For those new to the field, this competition will allow you to learn a lot  as we prepared documentation and tools for you to start! For veterans,  we have also created some tough challenges for you to enjoy! Many prizes to win!",
   "About.semla": "SEMLA is a Quebec-based research group that brings together researchers in software engineering and applied machine learning from Quebec and Canadian universities specializing in the engineering of intelligent software systems.",
@@ -19,27 +19,12 @@
   "Card[1].text": "Assist to our workshops given by industry professionals coming from top companies to learn key skills for applying ML in real life",
   "Card[2].text": "Talk with our sponsors to expand your network and obtain graduate or internship opportunities!",
   "Card[3].text": "Have fun with your team and try to win one of our prizes! There's up to 2000$ value of prizes to win excluding surprises!",
-  "Event[0][0].description": "Arrival of the participants",
-  "Event[0][1].description": "Opening ceremony",
-  "Event[0][2].description": "Start of the challenges",
-  "Event[0][3].description": "Team forming",
-  "Event[0][4].description": "Workshop - Introduction to artificial intelligence (FR)",
-  "Event[0][5].description": "Lunch",
-  "Event[0][6].description": "Workshop - CGI",
-  "Event[0][7].description": "Start of networking",
-  "Event[0][8].description": "Workshop",
-  "Event[0][9].description": "Workshop - ML in robotics (FR)",
-  "Event[0][10].description": "End of networking",
-  "Event[0][11].description": "Workshop - Testing Reinforcement learning (EN)",
-  "Event[0][12].description": "Dinner",
-  "Event[0][13].description": "Workshop",
-  "Event[0][14].description": "Game night",
-  "Event[1][0].description": "Breakfast",
-  "Event[1][1].description": "Submission of projects",
-  "Event[1][2].description": "Lunch",
-  "Event[1][3].description": "Activity Kahoot",
-  "Event[1][4].description": "Closing ceremony",
-  "Event[1][5].description": "End of the LearnML Hackathon!",
+  "Event[0][0].description": "Module 1 – Overview of Artificial Intelligence",
+  "Event[0][1].description": "Lunch break",
+  "Event[0][2].description": "Module 2 – First Steps in Machine Learning",
+  "Event[1][0].description": "Module 3 – Industry-inspired Case Studies",
+  "Event[1][1].description": "Lunch break",
+  "Event[1][2].description": "Module 4 – Open Forum on AI and Society",
   "QuestionAnswer.element0.question": "Who can attend this hackathon?",
   "QuestionAnswer.element0.answer": "Anybody who is a graduate or undergraduate student, or someone from the industry is welcome to participate! We would love to have you regardless of your level of experience or background!",
   "QuestionAnswer.element1.question": "How much does it cost?",
@@ -71,28 +56,5 @@
   "Schedule.warning": "All times are in EST.",
   "Partners.sponsor": "Sponsor Us",
   "Footer.newsletter": "Sign up to our newsletter!",
-  "Footer.flaticon": "Flaticon icon authors",
-  "Ressources.text": "If you want to start learning how to use Python and create machine learning models, here are some resources to help you get started!",
-  "Ressources.links": [
-    {
-      "link": "https://www.ibm.com/cloud/learn/machine-learning",
-      "helperText": "machine learning"
-    },
-    {
-      "link": "https://github.com/ia-z/ia-z",
-      "helperText": "full course on data science in french"
-    },
-    {
-      "link": "https://www.explorium.ai/wiki/supervised-learning/ ",
-      "helperText": "intro to Supervised learning"
-    },
-    {
-      "link": "https://towardsdatascience.com/ai-explainability-requires-robustness-2028ac200e9a",
-      "helperText": "robustness and explainability"
-    },
-    {
-      "link": "https://en.wikipedia.org/wiki/Fairness_(machine_learning)",
-      "helperText": "fairness in machine learning"
-    }
-  ]
+  "Footer.flaticon": "Flaticon icon authors"
 }

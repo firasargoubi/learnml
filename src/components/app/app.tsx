@@ -4,7 +4,6 @@ import { QUESTION_ANSWERS } from '../faq/data';
 import Faq from '../faq/faq';
 import Footer from '../footer/footer';
 import LandingHeroPage from '../landing-hero-page/landing-hero-page';
-import Ressources from '../Ressources/ressources';
 import Schedule from '../schedule/schedule';
 import { EVENTS } from '../schedule/schedule-data';
 import Speakers from '../speakers/speakers';
@@ -18,7 +17,6 @@ const App: FunctionComponent = () => (
     <LandingHeroPage />
     <About />
 
-    { <Ressources/>}
     <Schedule events={EVENTS} />
     <Speakers />
     <Faq questionAnswers={QUESTION_ANSWERS} />
