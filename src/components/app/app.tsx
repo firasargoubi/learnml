@@ -7,7 +7,7 @@ import LandingHeroPage from '../landing-hero-page/landing-hero-page';
 import Schedule from '../schedule/schedule';
 import { EVENTS } from '../schedule/schedule-data';
 import Speakers from '../speakers/speakers';
-import Partners from '../sponsors/sponsors';
+// import Partners from '../sponsors/sponsors';
 import StickyNavBar from '../sticky-navbar/sticky-navbar';
 import './app.scss';
 
@@ -20,7 +20,8 @@ const App: FunctionComponent = () => (
     <Schedule events={EVENTS} />
     <Speakers />
     <Faq questionAnswers={QUESTION_ANSWERS} />
-    <Partners />
+    {/* TODO: Re-enable sponsors section once content is ready */}
+    {/* <Partners /> */}
 
     <Footer />
   </div>
