@@ -1,4 +1,4 @@
-//import AECSP from './img/AECSP.svg';
+// import AECSP from './img/AECSP.svg';
 import CN from './img/CN.png';
 import COVEO from './img/coveo.png';
 import DRUIDE from './img/druide.png';

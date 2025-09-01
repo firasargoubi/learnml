@@ -1,8 +1,8 @@
 {
-  "name": "codeml",
+  "name": "learnml",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://codeml.ca",
+  "homepage": "https://learnml.ca",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",

@@ -1,6 +1,6 @@
 {
-    "short_name": "CodeML",
-    "name": "CodeML Hackathon: A Machine Learning Experience",
+    "short_name": "LearnML",
+    "name": "LearnML Hackathon: A Machine Learning Experience",
     "icons": [{
             "src": "web_pAI_192.png",
             "type": "image/png",
