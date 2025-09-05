@@ -59,7 +59,7 @@ const LandingHeroPage: React.FC = () => {
                   window.open(
                     'https://docs.google.com/forms/d/e/1FAIpQLSccIdaBmFBBzX9uzK0KDYIcuFZ5zlHkG7lFU6RUDhZBOBteFg/viewform',
                     '_blank',
-                    'noopener,noreferrer'
+                    'noopener,noreferrer',
                   )
                 }
               >
@@ -83,7 +83,7 @@ const LandingHeroPage: React.FC = () => {
               window.open(
                 'https://docs.google.com/forms/d/e/1FAIpQLSccIdaBmFBBzX9uzK0KDYIcuFZ5zlHkG7lFU6RUDhZBOBteFg/viewform',
                 '_blank',
-                'noopener,noreferrer'
+                'noopener,noreferrer',
               )
             }
           >
