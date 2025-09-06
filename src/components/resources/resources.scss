@@ -1,0 +1,29 @@
+@import '../../scss/variables.scss';
+
+.resources {
+  background-color: $background-dark;
+  color: $text-light;
+  padding: 5%;
+
+  .resources-slider {
+    .resource-item {
+      padding: 1rem;
+      text-align: center;
+
+      a {
+        color: $text-light;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+          color: $highlight;
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .slick-dots li button:before {
+    color: $text-light;
+  }
+}
