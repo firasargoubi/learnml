@@ -28,21 +28,21 @@
   }
 }
 
-.resource-card {
-  background: #222;
-  border-radius: 8px;
-  padding: 24px;
-  margin: 8px;
-  color: #fff; // White text
-  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-  transition: transform 0.1s;
-}
-.resource-card:hover {
-  transform: translateY(-2px) scale(1.03);
-  background: #333;
-}
-.resource-title {
-  color: #fff; // Ensures white text
-  font-size: 1.1rem;
-  font-weight: 500;
-}
+  .resource-card {
+    background: rgba($background-dark, 0.8);
+    border-radius: 8px;
+    padding: 24px;
+    margin: 8px;
+    color: $text-light;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s;
+  }
+  .resource-card:hover {
+    transform: translateY(-2px) scale(1.03);
+    background: rgba($background-dark, 0.9);
+  }
+  .resource-title {
+    color: $text-light;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }

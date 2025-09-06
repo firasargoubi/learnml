@@ -2,7 +2,10 @@
 .speaker {
     height: 300px;
     width: 300px;
-    background: transparent;
+    background-color: rgba($primary, 0.15);
+    border-radius: 8px;
+    padding: 1rem;
+
     .avatar {
         height: 200px;
         width: 200px;
