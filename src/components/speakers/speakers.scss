@@ -1,29 +1,44 @@
 @import '../../scss/variables.scss';
+
 .speakers {
-    background: transparent;
-    width: 100%;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background: transparent;
+  color: $text-light;
+  padding: 5%;
+
+  .slick-dots li button:before {
     color: $text-light;
-
-    .speaker-wrapper {
-        margin: auto;
-        display: flex;
-        width: min-content;
-        padding-top: 10%;
-        padding-bottom: 8px;
-        background-color: rgba($background-dark, 0.6);
-        border-radius: 8px;
-    }
-
-    .active {
-        background-color: $primary;
-    }
-
-    h6 {
-        color: $text-light;
-        text-align: center;
-    }
+  }
 }
+
+.speaker-card {
+  background: rgba($background-end, 0.8);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 8px;
+  color: $text-light;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.1s;
+  text-align: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+}
+
+.speaker-card:hover {
+  transform: translateY(-2px) scale(1.03);
+  background: rgba($background-end, 0.9);
+}
+
+.speaker-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.speaker-info {
+  margin-top: 4px;
+}
+

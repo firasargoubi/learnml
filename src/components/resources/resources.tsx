@@ -1,10 +1,11 @@
-import React from 'react';
-import Slider from 'react-slick';
-import { useTranslation } from 'react-i18next';
+/* tslint:disable:ordered-imports */
 import ContainerHeading from '../common/container-heading';
+import './resources.scss';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './resources.scss';
 
 const Resources: React.FC = () => {
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ const Resources: React.FC = () => {
     { title: 'Intro to Machine Learning', link: 'https://developers.google.com/machine-learning/crash-course' },
     { title: 'React Documentation', link: 'https://reactjs.org/' },
     { title: 'TypeScript Handbook', link: 'https://www.typescriptlang.org/docs/' },
-    { title: 'i18next Guide', link: 'https://www.i18next.com/' }
+    { title: 'i18next Guide', link: 'https://www.i18next.com/' },
   ];
 
   const settings = {
@@ -26,8 +27,8 @@ const Resources: React.FC = () => {
     slidesToScroll: 1,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 600, settings: { slidesToShow: 1 } }
-    ]
+      { breakpoint: 600, settings: { slidesToShow: 1 } },
+    ],
   };
 
   return (
