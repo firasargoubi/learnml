@@ -4,12 +4,12 @@ import { QUESTION_ANSWERS } from '../faq/data';
 import Faq from '../faq/faq';
 import Footer from '../footer/footer';
 import LandingHeroPage from '../landing-hero-page/landing-hero-page';
+import Resources from '../resources/resources';
 import Schedule from '../schedule/schedule';
 import { EVENTS } from '../schedule/schedule-data';
 import Speakers from '../speakers/speakers';
-import Resources from '../resources/resources';
-// import Partners from '../sponsors/sponsors';
 import StickyNavBar from '../sticky-navbar/sticky-navbar';
+// import Partners from '../sponsors/sponsors';
 import './app.scss';
 
 const App: FunctionComponent = () => (
