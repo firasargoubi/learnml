@@ -21,7 +21,7 @@ const Resources: React.FC = () => {
     autoplaySpeed: 3000,
     dots: true,
     infinite: true,
-    arrows: false,
+    arrows: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
