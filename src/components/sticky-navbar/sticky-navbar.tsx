@@ -104,6 +104,16 @@ const StickyNavBar: FunctionComponent = () => {
                 {t('App.schedule')}
               </Link>
             </li>
+            <li>
+              <Link
+                className="a"
+                to="resources"
+                smooth={true}
+                duration={DURATION}
+              >
+                {t('App.resources')}
+              </Link>
+            </li>
             {/* TODO: Re-enable sponsor navigation once sponsors section returns
             <li>
               <Link
