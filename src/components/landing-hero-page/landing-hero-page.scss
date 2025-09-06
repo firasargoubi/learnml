@@ -1,7 +1,7 @@
 @import '../../scss/variables.scss';
 
 canvas {
-    background-color: $background-dark;
+    background: transparent;
 }
 
 .landing-hero-page {
@@ -13,10 +13,11 @@ canvas {
     display: flex;
     align-items: center;
     padding-top: 3%;
+    background: transparent;
 }
 
 .bg-color-hack {
-    background-color: $background-dark;
+    background: transparent;
 }
 
 .content {

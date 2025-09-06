@@ -28,17 +28,20 @@ const Resources: React.FC = () => {
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
       { breakpoint: 600, settings: { slidesToShow: 1 } }
     ]
-  } as const;
+  };
 
   return (
     <div id="resources" className="resources">
       <ContainerHeading title={t('Resources.title')} />
-      <Slider {...settings} className="resources-slider">
+      <Slider {...settings} >
         {resources.map((r, i) => (
-          <div key={i} className="resource-item">
-            <a href={r.link} target="_blank" rel="noopener noreferrer">
-              {r.title}
-            </a>
+          <div
+            key={i}
+            className="resource-card"
+            onClick={() => window.open(r.link, '_blank', 'noopener,noreferrer')}
+            style={{ cursor: 'pointer' }}
+          >
+            <span className="resource-title">{r.title}</span>
           </div>
         ))}
       </Slider>

@@ -1,7 +1,7 @@
 @import '../../scss/variables.scss';
 
 .nav-container {
-        background-color: $background-dark;
+        background: transparent;
         width: 100%;
         position: fixed;
         padding-bottom: 1%;
@@ -15,7 +15,7 @@
     
     .nav-row {
         max-width: 1140px;
-        background-color: $background-dark;
+        background: transparent;
         margin: 0 auto;
     }
     

@@ -1,7 +1,7 @@
 @import '../../scss/variables.scss';
 
 .resources {
-  background-color: $background-dark;
+  background: transparent;
   color: $text-light;
   padding: 5%;
 
@@ -26,4 +26,23 @@
   .slick-dots li button:before {
     color: $text-light;
   }
+}
+
+.resource-card {
+  background: #222;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 8px;
+  color: #fff; // White text
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: transform 0.1s;
+}
+.resource-card:hover {
+  transform: translateY(-2px) scale(1.03);
+  background: #333;
+}
+.resource-title {
+  color: #fff; // Ensures white text
+  font-size: 1.1rem;
+  font-weight: 500;
 }
