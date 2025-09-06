@@ -15,7 +15,7 @@ const Footer: FunctionComponent = () => {
       <div className="copyright">© {new Date().getFullYear()} POLYAI</div>
 
       <div>
-        <a href="https://poly-ai.io/" target="_blank" rel="noopener noreferrer">
+        <a href="https://polyai.ca/" target="_blank" rel="noopener noreferrer">
           <LogoSvg />
         </a>
       </div>
