@@ -36,6 +36,10 @@
         &:nth-child(1) {
             border-top: 0px solid $text-light;
         }
+        // Make the time column bold
+        > .col-md-3 {
+            font-weight: 500;
+        }
     }
     .nav-item.active {
         background-color: $secondary;
