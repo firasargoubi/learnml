@@ -10,17 +10,17 @@ import 'slick-carousel/slick/slick-theme.css';
 interface Speaker {
   firstName: string;
   lastName: string;
-  role?: string;
-  domain?: string;
+  roleKey: string;
+  domainKey: string;
   imgSrc?: string;
 }
 
 const speakers: Speaker[] = [
-  { firstName: 'Omar', lastName: 'Abdul-Wahab', role: 'Professeur adjoint à PolyMTL', domain: 'Machine Learning' },
-  { firstName: 'Ranwa', lastName: 'Al-Mallah', role: 'Professeure agrégée à PolyMTL', domain: 'Modélisation et IA' },
-  { firstName: 'Aziz', lastName: 'Diop' },
-  { firstName: 'Sara', lastName: 'Beddouch', domain: 'Cybersécurité et IA' },
-  { firstName: 'Lahcen', lastName: 'Fatah', role: 'Enseignant à PolyMTL' },
+  { firstName: 'Sara', lastName: 'Bedouch', roleKey: 'Speakers.sara.role', domainKey: 'Speakers.sara.domain' },
+  { firstName: 'Lahcen', lastName: 'Fatah', roleKey: 'Speakers.lahcen.role', domainKey: 'Speakers.lahcen.domain' },
+  { firstName: 'Aziz', lastName: 'Diop', roleKey: 'Speakers.aziz.role', domainKey: 'Speakers.aziz.domain' },
+  { firstName: 'Omar', lastName: 'Abdul Wahab', roleKey: 'Speakers.omar.role', domainKey: 'Speakers.omar.domain' },
+  { firstName: 'Véronique', lastName: 'Tremblay', roleKey: 'Speakers.veronique.role', domainKey: 'Speakers.veronique.domain' },
 ];
 
 const Speakers: React.FC = () => {
@@ -44,17 +44,22 @@ const Speakers: React.FC = () => {
     <div id="speakers" className="speakers">
       <ContainerHeading title={t('Speakers.title')} />
       <Slider {...settings}>
-        {speakers.map((s, i) => (
-          <div key={i} className="speaker-card">
-            {s.imgSrc && <img src={s.imgSrc} alt={`${s.firstName} ${s.lastName}`} />}
-            <div className="speaker-name">{s.firstName} {s.lastName}</div>
-            {(s.role || s.domain) && (
-              <div className="speaker-info">
-                {[s.role, s.domain].filter(Boolean).join(', ')}
-              </div>
-            )}
-          </div>
-        ))}
+        {speakers.map((s, i) => {
+          const role = t(s.roleKey);
+          const domain = t(s.domainKey);
+          const info = [role, domain].filter((txt) => txt && !txt.startsWith('Speakers.'));
+          return (
+            <div key={i} className="speaker-card">
+              {s.imgSrc && <img src={s.imgSrc} alt={`${s.firstName} ${s.lastName}`} />}
+              <div className="speaker-name">{s.firstName} {s.lastName}</div>
+              {info.length > 0 && (
+                <div className="speaker-info">
+                  {info.join(', ')}
+                </div>
+              )}
+            </div>
+          );
+        })}
       </Slider>
     </div>
   );
