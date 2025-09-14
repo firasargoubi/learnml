@@ -21,6 +21,7 @@ const speakers: Speaker[] = [
   { firstName: 'Aziz', lastName: 'Diop', roleKey: 'Speakers.aziz.role', domainKey: 'Speakers.aziz.domain' },
   { firstName: 'Omar', lastName: 'Abdul Wahab', roleKey: 'Speakers.omar.role', domainKey: 'Speakers.omar.domain' },
   { firstName: 'Véronique', lastName: 'Tremblay', roleKey: 'Speakers.veronique.role', domainKey: 'Speakers.veronique.domain' },
+  { firstName: 'Ranwa', lastName: 'Al-Mallah', roleKey: 'Speakers.ranwa.role', domainKey: 'Speakers.ranwa.domain' },
 ];
 
 const Speakers: React.FC = () => {
