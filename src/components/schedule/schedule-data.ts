@@ -3,7 +3,7 @@ import { Event } from './event-interface';
 export const EVENTS: Event[][] = [
   [
     {
-      time: '08:45 - 09:30',
+      time: '8:45 - 9:30',
       descriptioni18nKey: 'Event[0][0].description',
     },
     {
@@ -25,7 +25,7 @@ export const EVENTS: Event[][] = [
   ],
   [
     {
-      time: '08:45 - 09:30',
+      time: '8:45 - 9:30',
       descriptioni18nKey: 'Event[1][0].description',
     },
     {
