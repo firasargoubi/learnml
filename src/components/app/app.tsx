@@ -8,8 +8,8 @@ import Resources from '../resources/resources';
 import Schedule from '../schedule/schedule';
 import { EVENTS } from '../schedule/schedule-data';
 import Speakers from '../speakers/speakers';
+import Partners from '../sponsors/sponsors';
 import StickyNavBar from '../sticky-navbar/sticky-navbar';
-// import Partners from '../sponsors/sponsors';
 import './app.scss';
 
 const App: FunctionComponent = () => (
@@ -23,7 +23,7 @@ const App: FunctionComponent = () => (
     <Resources />
     <Faq questionAnswers={QUESTION_ANSWERS} />
     {/* TODO: Re-enable sponsors section once content is ready */}
-    {/* <Partners /> */}
+    <Partners />
 
     <Footer />
   </div>
