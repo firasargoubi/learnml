@@ -50,17 +50,31 @@
   "Speakers.speaker[1]": "Research Associate",
   "Speakers.speaker[2]": "Tech lead",
  "Speakers.sara.role": "Solution Architect at MongoDB",
-  "Speakers.sara.domain": "Cloud and Cybersecurity",
-  "Speakers.lahcen.role": "Technology ethicist and applied ethics instructor",
-  "Speakers.lahcen.domain": "Ethics of technology",
-  "Speakers.aziz.role": "PhD candidate in computer engineering",
-  "Speakers.aziz.domain": "AI, optimization, and cybersecurity",
-  "Speakers.omar.role": "Professor at Polytechnique Montréal leading research with ESET, Thales, and partners",
+  "Speakers.sara.domain": "Cloud and cybersecurity",
+
+  "Speakers.lahcen.role": "Technology ethicist and applied ethics instructor (UQAM PhD candidate)",
+  "Speakers.lahcen.domain": "Societal impacts of technology; data and AI ethics",
+
+  "Speakers.aziz.role": "Software Engineer at Morgan Stanley and PhD candidate in computer engineering",
+  "Speakers.aziz.domain": "Artificial intelligence, optimization, and cybersecurity",
+
+  "Speakers.omar.role": "Assistant Professor at Polytechnique Montréal; leads research with ESET, Thales, and partners",
   "Speakers.omar.domain": "Technical, human, environmental, and strategic aspects of cybersecurity",
-  "Speakers.veronique.role": "Practice lead in artificial intelligence, ethics, and governance",
+
+  "Speakers.veronique.role": "Practice lead in artificial intelligence, ethics, and governance (Videns)",
   "Speakers.veronique.domain": "Data science, artificial intelligence, and AI ethics",
-  "Speakers.ranwa.role": "Aggregate Professor at Polytechnique Montréal in the Department of Computer and Software Engineering",
+
+  "Speakers.ranwa.role": "Associate Professor at Polytechnique Montréal, Department of Computer and Software Engineering",
   "Speakers.ranwa.domain": "Cybersecurity of AI systems",
+
+  "Speakers.patricia.role": "Researcher (Alogra Lab – UdeM/Mila); PhD candidate in AI ethics (M. Dilhac) at UdeM; Lecturer at UdeM",
+  "Speakers.patricia.domain": "AI ethics; research and teaching at the intersection of AI and society",
+
+  "Speakers.sylvain.role": "PhD candidate in Education (UdeM)",
+  "Speakers.sylvain.domain": "Ethical and inclusive design of intelligent tutoring companions to support university students",
+
+  "Speakers.victoria.role": "4th-year Software Engineering student (AI & Data Science concentration); Digital arts artist",
+  "Speakers.victoria.domain": "Illustration, comics, and 3D modeling",
   "Partners.title": "Sponsors",
   "Schedule.title": "Schedule",
   "Schedule.day": "Day",

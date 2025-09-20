@@ -16,11 +16,7 @@ export interface Sponsor {
 }
 
 export const SPONSORS: Sponsor[] = [
-  {
-    name: 'Banque Nationale',
-    imgPath: BanqueNationalePoster,
-    website: 'https://www.bnc.ca/',
-  },
+
   {
     name: 'IVADO',
     imgPath: IvadoPoster,
@@ -37,17 +33,26 @@ export const SPONSORS: Sponsor[] = [
     website: 'https://www.polymtl.ca/',
   },
   {
+    name: 'Videns Analytics',
+    imgPath: VidensPoster,
+  },
+  {
+    name: 'IRIU',
+    imgPath: IRIUPoster,
+  },
+  {
+    name: 'Pactole',
+    imgPath: PactolePoster,
+  },
+  {
     name: 'AECSP',
     imgPath: AECSPPoster,
     website: 'https://aecsp.qc.ca/',
   },
   {
-    name: 'Videns Analytics',
-    imgPath: VidensPoster,
-  },
-  {
-    name: 'Pactole',
-    imgPath: PactolePoster,
+    name: 'Banque Nationale',
+    imgPath: BanqueNationalePoster,
+    website: 'https://www.bnc.ca/',
   },
   {
     name: 'Tailed',
@@ -56,9 +61,5 @@ export const SPONSORS: Sponsor[] = [
   {
     name: 'Propolys',
     imgPath: PropolysPoster,
-  },
-  {
-    name: 'IRIU',
-    imgPath: IRIUPoster,
   },
 ];

@@ -51,16 +51,30 @@
   "Speakers.speaker[2]": "Directeur de la technologie",
   "Speakers.sara.role": "Solution Architect chez MongoDB",
   "Speakers.sara.domain": "Cloud et cybersécurité",
-  "Speakers.lahcen.role": "Éthicien de la technologie et enseignant en éthique appliquée",
-  "Speakers.lahcen.domain": "Éthique de la technologie",
-  "Speakers.aziz.role": "Doctorant en génie informatique",
+
+  "Speakers.lahcen.role": "Éthicien de la technologie et enseignant en éthique appliquée (doctorant à l’UQAM)",
+  "Speakers.lahcen.domain": "Impacts sociétaux de la technologie; éthique des données et de l’IA",
+
+  "Speakers.aziz.role": "Ingénieur logiciel chez Morgan Stanley et doctorant en génie informatique",
   "Speakers.aziz.domain": "IA, optimisation et cybersécurité",
-  "Speakers.omar.role": "Professeur à Polytechnique Montréal, responsable de projets de recherche avec ESET, Thalès et divers partenaires",
+
+  "Speakers.omar.role": "Professeur adjoint à Polytechnique Montréal; responsable de projets de recherche avec ESET, Thalès et des partenaires",
   "Speakers.omar.domain": "Cybersécurité : dimensions techniques, humaines, environnementales et stratégiques",
-  "Speakers.veronique.role": "Responsable de pratique en intelligence artificielle, éthique et gouvernance",
-  "Speakers.veronique.domain": "Science des données, intelligence artificielle et éthique de l'IA",
-  "Speakers.ranwa.role": "Professeur agrégé à Polytechnique Montréal dans le département de génie informatique et logiciel",
-  "Speakers.ranwa.domain": "Cybersécurité des systèmes d'IA",
+
+  "Speakers.veronique.role": "Responsable de pratique en intelligence artificielle, éthique et gouvernance (Videns)",
+  "Speakers.veronique.domain": "Science des données, intelligence artificielle et éthique de l’IA",
+
+  "Speakers.ranwa.role": "Professeure agrégée au Département de génie informatique et génie logiciel à Polytechnique",
+  "Speakers.ranwa.domain": "Cybersécurité des systèmes d’IA",
+
+  "Speakers.patricia.role": "Recherche – Alogra Lab – UdeM/Mila; Candidate PhD en éthique de l’IA (M. Dilhac) – UdeM; Chargée de cours – UdeM",
+  "Speakers.patricia.domain": "Éthique de l’IA; recherche et enseignement aux interfaces IA–société",
+
+  "Speakers.sylvain.role": "Doctorant en sciences de l’éducation (UdeM)",
+  "Speakers.sylvain.domain": "Conception éthique et inclusive d’un compagnon tutoriel intelligent pour soutenir les étudiants universitaires",
+
+  "Speakers.victoria.role": "Étudiante de 4e année au baccalauréat en génie logiciel (concentration IA et science des données); Artiste en arts numériques",
+  "Speakers.victoria.domain": "Illustration, bande dessinée et modélisation 3D",
   "Partners.title": "Commanditaires",
   "Schedule.title": "Horaire",
   "Schedule.day": "Jour",

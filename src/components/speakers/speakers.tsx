@@ -16,12 +16,15 @@ interface Speaker {
 }
 
 const speakers: Speaker[] = [
-  { firstName: 'Sara', lastName: 'Bedouch', roleKey: 'Speakers.sara.role', domainKey: 'Speakers.sara.domain' },
+  { firstName: 'Sara', lastName: 'Beddouch', roleKey: 'Speakers.sara.role', domainKey: 'Speakers.sara.domain' },
   { firstName: 'Lahcen', lastName: 'Fatah', roleKey: 'Speakers.lahcen.role', domainKey: 'Speakers.lahcen.domain' },
   { firstName: 'Aziz', lastName: 'Diop', roleKey: 'Speakers.aziz.role', domainKey: 'Speakers.aziz.domain' },
-  { firstName: 'Omar', lastName: 'Abdul Wahab', roleKey: 'Speakers.omar.role', domainKey: 'Speakers.omar.domain' },
+  { firstName: 'Omar', lastName: 'Abdul-Wahab', roleKey: 'Speakers.omar.role', domainKey: 'Speakers.omar.domain' },
   { firstName: 'Véronique', lastName: 'Tremblay', roleKey: 'Speakers.veronique.role', domainKey: 'Speakers.veronique.domain' },
   { firstName: 'Ranwa', lastName: 'Al-Mallah', roleKey: 'Speakers.ranwa.role', domainKey: 'Speakers.ranwa.domain' },
+  { firstName: 'Patricia', lastName: 'Gautrin', roleKey: 'Speakers.patricia.role', domainKey: 'Speakers.patricia.domain' },
+  { firstName: 'Sylvain', lastName: 'Miklohoun', roleKey: 'Speakers.sylvain.role', domainKey: 'Speakers.sylvain.domain' },
+  { firstName: 'Victoria-Mae', lastName: 'Carrière', roleKey: 'Speakers.victoria.role', domainKey: 'Speakers.victoria.domain' },
 ];
 
 const Speakers: React.FC = () => {
