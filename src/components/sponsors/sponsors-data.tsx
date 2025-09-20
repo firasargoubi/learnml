@@ -44,16 +44,17 @@ export const SPONSORS: Sponsor[] = [
     name: 'Pactole',
     imgPath: PactolePoster,
   },
+    {
+    name: 'Banque Nationale',
+    imgPath: BanqueNationalePoster,
+    website: 'https://www.bnc.ca/',
+  },
   {
     name: 'AECSP',
     imgPath: AECSPPoster,
     website: 'https://aecsp.qc.ca/',
   },
-  {
-    name: 'Banque Nationale',
-    imgPath: BanqueNationalePoster,
-    website: 'https://www.bnc.ca/',
-  },
+
   {
     name: 'Tailed',
     imgPath: TailedPoster,
