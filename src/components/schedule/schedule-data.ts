@@ -25,11 +25,11 @@ export const EVENTS: Event[][] = [
   ],
   [
     {
-      time: '8:45 - 9:30',
+      time: '8:45 - 9:45',
       descriptioni18nKey: 'Event[1][0].description',
     },
     {
-      time: '9:30 - 10:00',
+      time: '9:45 - 10:00',
       descriptioni18nKey: 'Event[1][1].description',
     },
     {
