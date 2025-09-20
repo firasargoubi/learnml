@@ -1,14 +1,13 @@
-// import AECSP from './img/AECSP.svg';
-import CN from './img/CN.png';
-import COVEO from './img/coveo.png';
-import DRUIDE from './img/druide.png';
-import ERICSON from './img/ericson.png';
-import GURU from './img/guru.png';
-import IVADO from './img/ivado.png';
-import POLY from './img/Polytechnique_logo.png';
-import SEMLA_LOGO from './img/semla_logo.png';
-import STINGRAY from './img/stingray.png';
-import TD from './img/td_logo.jpg';
+import AECSPPoster from '../../images/sponsors/AECSP.png';
+import BanqueNationalePoster from '../../images/sponsors/Banque_Nationale.png';
+import IRIUPoster from '../../images/sponsors/IRIU.png';
+import IvadoPoster from '../../images/sponsors/Ivado.png';
+import PactolePoster from '../../images/sponsors/Pactole.png';
+import PolyMTLPoster from '../../images/sponsors/PolyMTL.png';
+import PropolysPoster from '../../images/sponsors/Propolys.png';
+import SEMLAPoster from '../../images/sponsors/SEMLA.png';
+import TailedPoster from '../../images/sponsors/Tailed.png';
+import VidensPoster from '../../images/sponsors/Videns.png';
 
 export interface Sponsor {
   name: string;
@@ -16,64 +15,50 @@ export interface Sponsor {
   website?: string;
 }
 
-export const PLATINUM: Sponsor[] = [];
-
-export const GOLD: Sponsor[] = [
-
+export const SPONSORS: Sponsor[] = [
+  {
+    name: 'Banque Nationale',
+    imgPath: BanqueNationalePoster,
+    website: 'https://www.bnc.ca/',
+  },
   {
     name: 'IVADO',
-    imgPath: IVADO,
+    imgPath: IvadoPoster,
     website: 'https://ivado.ca/en/',
   },
   {
-    name: 'CN',
-    imgPath: CN,
-    website: 'https://www.cn.ca/en/',
-  },
-  {
     name: 'SEMLA',
-    imgPath: SEMLA_LOGO,
+    imgPath: SEMLAPoster,
     website: 'https://semla.quebec/en/',
   },
   {
-    name: 'ERICSON',
-    imgPath: ERICSON,
-    website: ' https://www.ericsson.com/en/newsroom/media-kits',
+    name: 'Polytechnique Montréal',
+    imgPath: PolyMTLPoster,
+    website: 'https://www.polymtl.ca/',
   },
- 
-  ];
-export const SILVER: Sponsor[] = [
   {
-    name: 'COVEO',
-    imgPath: COVEO,
-    website: 'https://www.coveo.com/en',
+    name: 'AECSP',
+    imgPath: AECSPPoster,
+    website: 'https://aecsp.qc.ca/',
+  },
+  {
+    name: 'Videns Analytics',
+    imgPath: VidensPoster,
+  },
+  {
+    name: 'Pactole',
+    imgPath: PactolePoster,
+  },
+  {
+    name: 'Tailed',
+    imgPath: TailedPoster,
+  },
+  {
+    name: 'Propolys',
+    imgPath: PropolysPoster,
+  },
+  {
+    name: 'IRIU',
+    imgPath: IRIUPoster,
   },
 ];
-export const BRONZE: Sponsor[] = [
-  { 
-    name: 'Druide', 
-    imgPath: DRUIDE, 
-    website: 'https://www.druide.com/en/', 
-  },
- /* { 
-    name: 'AECSP', 
-    imgPath: AECSP,
-     website: 'https://aecsp.qc.ca/', 
-    },*/
-  { name: 'Guru', imgPath: GURU, website: 'https://www.guruenergy.com/en-ca' },
-    {
-      name: 'Stingray',
-      imgPath: STINGRAY,
-      website: '  https://corporate.stingray.com/media-center/',
-    },
-    {
-      name: 'Teledyne Dalsa',
-      imgPath: TD,
-      website: 'https://www.teledynedalsa.com/en/home/',
-    },
-    {
-      name: 'Polytechnique Montreal',
-      imgPath: POLY,
-      website: 'https://www.polymtl.ca/',
-    },
-  ];
